@@ -27,15 +27,15 @@ deliberately formatted for extractability:
 
 ## The result
 
-For the topic cluster around "retirement planning mistakes," Google's **AI Overview
-selected this article as one of its cited sources** — appearing alongside only two
-competitors (major financial brands). One specific mistake from the article is surfaced
-as the highlighted fragment that anchors its inclusion.
+My Allianz articles have earned both kinds of win. As of June 2026, the article on
+why a car fails the ITV (vehicle inspection) is **cited as a source in Google's AI
+Overview** for that query, and also ranks as the **top organic result** for it. A
+separate article on real-estate annuities holds **#1 organic**. An earlier piece on
+retirement-planning mistakes also held an AI Overview citation; those citations rotate
+month to month, so the exact mix shifts over time.
 
-This is the distinction that matters: the page is not necessarily a top-10 *classic
-organic* result for those queries — it earned its place in the **AI-generated answer
-panel**, which Google populates using different selection criteria. Being chosen there
-is direct evidence of content quality and structure that AI search rewards.
+Screenshots of the AI Overview citation and the organic rankings are in
+[`/assets`](../assets).
 
 ## Why this matters for a developer-first / AI-native company
 

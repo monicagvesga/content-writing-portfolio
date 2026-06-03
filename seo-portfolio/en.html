@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mónica Gómez Vesga · Spanish SEO Writer for Spain & Latin America</title>
+<meta name="description" content="I help brands rank on Google in Spanish-speaking markets. SEO content writer with verified #1 results in Spain. Native Spanish, ES-LATAM localization.">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cream: #FAF7F2;
+  --white: #FFFFFF;
+  --ink: #1C1917;
+  --ink-light: #57534E;
+  --ink-faint: #A8A29E;
+  --coral: #E8613C;
+  --coral-light: #FEF2EE;
+  --sage: #2D7A4F;
+  --sage-light: #ECFDF3;
+  --navy: #1E3A5F;
+  --navy-light: #EFF6FF;
+  --line: #E7E5E4;
+  --line-dark: #D6D3D1;
+  --shadow-sm: 0 1px 2px rgba(28,25,23,0.05);
+  --shadow-md: 0 4px 16px rgba(28,25,23,0.07);
+  --shadow-lg: 0 8px 32px rgba(28,25,23,0.1);
+  --r: 16px;
+  --max: 780px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { font-family:'Outfit',sans-serif; background:var(--cream); color:var(--ink); line-height:1.7; font-size:16px; -webkit-font-smoothing:antialiased; }
+.wrap { max-width:var(--max); margin:0 auto; padding:0 28px; }
+a { color:var(--coral); } a:hover { color:var(--navy); }
+.hero { padding:90px 0 70px; }
+.hero-eyebrow { font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; letter-spacing:2px; text-transform:uppercase; color:var(--coral); margin-bottom:20px; }
+.hero h1 { font-family:'Libre Baskerville',serif; font-size:clamp(32px,5vw,48px); line-height:1.2; font-weight:400; margin-bottom:24px; }
+.hero h1 span { font-style:italic; color:var(--coral); display:block; font-size:0.7em; margin-top:4px; }
+.hero-text { font-size:18px; color:var(--ink-light); max-width:580px; margin-bottom:36px; font-weight:300; line-height:1.8; }
+.pill-row { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+.pill-label { font-size:13px; color:var(--ink-faint); font-weight:500; margin-right:4px; }
+.pill { font-size:12px; font-weight:500; color:var(--ink-light); background:var(--white); border:1px solid var(--line); padding:5px 14px; border-radius:100px; transition:all 0.2s; }
+.pill:hover { border-color:var(--coral); color:var(--coral); }
+.divider { height:1px; background:var(--line); margin:0; }
+.section { padding:72px 0; }
+.section-eyebrow { font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:500; letter-spacing:2.5px; text-transform:uppercase; color:var(--coral); margin-bottom:10px; }
+.section-title { font-family:'Libre Baskerville',serif; font-size:clamp(24px,3.5vw,36px); font-weight:400; margin-bottom:8px; }
+.section-sub { font-size:16px; color:var(--ink-light); font-weight:300; margin-bottom:48px; max-width:540px; }
+.case { background:var(--white); border:1px solid var(--line); border-radius:var(--r); margin-bottom:40px; overflow:hidden; box-shadow:var(--shadow-sm); transition:box-shadow 0.3s; }
+.case:hover { box-shadow:var(--shadow-md); }
+.case-top { padding:32px 36px 24px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:flex-start; gap:16px; flex-wrap:wrap; }
+.case-brand { font-family:'Libre Baskerville',serif; font-size:22px; font-weight:400; }
+.case-tag { font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:1.5px; text-transform:uppercase; color:var(--ink-faint); border:1px solid var(--line); padding:4px 12px; border-radius:6px; white-space:nowrap; }
+.case-body { padding:28px 36px 36px; }
+.case-label { font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:2px; text-transform:uppercase; color:var(--ink-faint); margin-bottom:8px; }
+.case-body > p { font-size:15px; color:var(--ink-light); margin-bottom:24px; font-weight:300; line-height:1.75; }
+.metrics { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:32px; }
+.metric { text-align:center; padding:20px 12px; border-radius:12px; }
+.metric.green { background:var(--sage-light); } .metric.blue { background:var(--navy-light); } .metric.coral { background:var(--coral-light); }
+.metric-num { font-family:'Libre Baskerville',serif; font-size:28px; font-weight:700; line-height:1; margin-bottom:6px; }
+.metric.green .metric-num { color:var(--sage); } .metric.blue .metric-num { color:var(--navy); } .metric.coral .metric-num { color:var(--coral); }
+.metric-label { font-size:12px; color:var(--ink-light); font-weight:400; line-height:1.4; }
+.tbl { width:100%; border-collapse:collapse; font-size:14px; margin-bottom:24px; }
+.tbl thead th { font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:1.5px; text-transform:uppercase; color:var(--ink-faint); text-align:left; padding:8px 10px; border-bottom:2px solid var(--line); }
+.tbl td { padding:9px 10px; border-bottom:1px solid var(--line); vertical-align:middle; }
+.tbl tr:last-child td { border-bottom:none; }
+.tbl a { color:var(--ink); text-decoration:none; border-bottom:1px dotted var(--line-dark); transition:all 0.2s; }
+.tbl a:hover { color:var(--coral); border-color:var(--coral); }
+.badge { font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; padding:3px 9px; border-radius:6px; display:inline-block; }
+.badge-1 { background:#D1FAE5; color:#065F46; } .badge-3 { background:#DBEAFE; color:#1E40AF; } .badge-10 { background:#FEF3C7; color:#92400E; } .badge-ai { background:#EDE9FE; color:#6D28D9; }
+.serp { background:var(--white); border:1px solid #DFE1E5; border-radius:12px; padding:20px 24px; margin-bottom:20px; }
+.serp-bar { display:flex; align-items:center; gap:8px; border:1px solid #DFE1E5; border-radius:24px; padding:8px 16px; margin-bottom:16px; box-shadow:0 1px 4px rgba(0,0,0,0.08); }
+.serp-bar span { font-size:14px; color:#202124; }
+.serp-hit { padding:10px 0; } .serp-hit.active { background:linear-gradient(90deg,var(--sage-light) 0%,transparent 100%); margin:0 -24px; padding:12px 24px; border-left:3px solid var(--sage); border-radius:0 8px 8px 0; }
+.serp-url { font-size:12px; color:#4D5156; margin-bottom:1px; }
+.serp-url .dot { display:inline-block; width:16px; height:16px; border-radius:50%; font-size:9px; color:white; font-weight:700; text-align:center; line-height:16px; margin-right:5px; vertical-align:middle; }
+.serp-title { font-size:17px; color:#1A0DAB; margin-bottom:2px; } .serp-desc { font-size:13px; color:#4D5156; line-height:1.5; }
+.serp-badge-inline { font-family:'IBM Plex Mono',monospace; font-size:9px; font-weight:700; letter-spacing:0.5px; text-transform:uppercase; background:#D1FAE5; color:#065F46; padding:2px 8px; border-radius:100px; margin-left:6px; vertical-align:middle; }
+.serp-faded .serp-title { font-size:14px; color:#9AA0A6; } .serp-faded .serp-url { color:#BDC1C6; }
+.ai-box { background:linear-gradient(135deg,#F5F0FF 0%,#EFF6FF 50%,#F5F0FF 100%); border:1px solid #D4C5F9; border-radius:12px; padding:20px; margin-bottom:20px; }
+.ai-head { display:flex; align-items:center; gap:6px; margin-bottom:10px; font-size:13px; color:#5F6368; font-weight:500; }
+.ai-text { font-size:13px; color:#3C4043; line-height:1.6; margin-bottom:12px; }
+.ai-chips { display:flex; gap:6px; flex-wrap:wrap; }
+.ai-chip { font-size:11px; color:#5F6368; background:white; border:1px solid #D4C5F9; padding:5px 10px; border-radius:8px; display:inline-flex; align-items:center; gap:4px; }
+.ai-chip.hl { border-color:var(--sage); background:var(--sage-light); color:var(--sage); font-weight:600; }
+.ai-chip .cd { display:inline-block; width:12px; height:12px; border-radius:50%; font-size:7px; color:white; font-weight:700; text-align:center; line-height:12px; }
+.dash { background:var(--cream); border:1px solid var(--line); border-radius:12px; padding:20px 24px; margin-bottom:20px; }
+.dash-head { font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-faint); letter-spacing:1px; margin-bottom:12px; }
+.dash-row { display:flex; align-items:center; gap:12px; padding:8px 0; border-bottom:1px solid var(--line); }
+.dash-row:last-child { border-bottom:none; }
+.dash-row.hl { background:linear-gradient(90deg,var(--sage-light) 0%,transparent 100%); margin:0 -12px; padding:8px 12px; border-radius:6px; font-weight:600; }
+.dash-pos { font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-faint); width:24px; text-align:center; } .dash-row.hl .dash-pos { color:var(--sage); }
+.dash-name { flex:1; font-size:13px; }
+.dash-num { font-family:'IBM Plex Mono',monospace; font-size:13px; font-weight:500; color:var(--ink-light); width:60px; text-align:right; } .dash-row.hl .dash-num { color:var(--sage); }
+.pullquote { border-left:3px solid var(--coral); padding:16px 20px; margin:24px 0; background:var(--coral-light); border-radius:0 10px 10px 0; font-family:'Libre Baskerville',serif; font-size:14px; font-style:italic; color:var(--ink-light); line-height:1.7; }
+.mini-case { background:var(--white); border:1px solid var(--line); border-radius:var(--r); padding:24px 28px; margin-bottom:20px; box-shadow:var(--shadow-sm); }
+.about-photo {
+  width:160px; height:160px;
+  border-radius:50%;
+  object-fit:cover;
+  object-position:center top;
+  border:3px solid var(--line);
+  box-shadow:var(--shadow-md);
+  margin-bottom:28px;
+}
+.about-grid { display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start; }
+.about-grid p { font-size:15px; color:var(--ink-light); margin-bottom:14px; font-weight:300; line-height:1.8; }
+.about-note { font-size:13px; font-style:italic; color:var(--ink-faint); margin-top:20px; padding:14px 16px; background:var(--cream); border-radius:10px; border:1px solid var(--line); line-height:1.7; }
+.about-h4 { font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:2px; text-transform:uppercase; color:var(--ink-faint); margin-bottom:8px; margin-top:24px; }
+.about-h4:first-child { margin-top:0; }
+.skill-row { display:flex; flex-wrap:wrap; gap:6px; margin-top:16px; }
+.skill { font-size:12px; font-weight:500; padding:5px 12px; border-radius:100px; border:1px solid var(--line); color:var(--ink-light); background:var(--white); }
+footer { text-align:center; padding:36px 0; border-top:1px solid var(--line); font-size:13px; color:var(--ink-faint); }
+.lang-switch { position:fixed; top:20px; right:20px; z-index:100; }
+.lang-switch a { font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:500; text-decoration:none; padding:6px 14px; border-radius:100px; border:1px solid var(--line); background:var(--white); color:var(--ink-light); box-shadow:var(--shadow-sm); transition:all 0.2s; }
+.lang-switch a:hover { border-color:var(--coral); color:var(--coral); }
+@media(max-width:640px){
+  .case-top,.case-body{padding:20px 22px;}
+  .metrics{grid-template-columns:1fr;}
+  .about-grid{grid-template-columns:1fr;gap:28px;}
+  .serp-hit.active{margin:0 -16px;padding:10px 16px;}
+  [style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr!important;}
+}
+@keyframes rise{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+.case{animation:rise 0.5s ease both;}
+.case:nth-child(2){animation-delay:0.12s;}
+.case:nth-child(3){animation-delay:0.24s;}
+</style>
+</head>
+<body>
+
+<div class="lang-switch"><a href="index.html">ES 🇪🇸</a></div>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+<div class="wrap">
+  <p class="hero-eyebrow">📍 Barcelona, Spain · Native Spanish speaker</p>
+  <h1>I help brands rank in<br>Spanish-speaking markets<span>SEO Writer & Content Localization Specialist</span></h1>
+  <p class="hero-text">Want to grow your organic presence in Spain or Latin America? I write, optimize and localize content that ranks. Not translated content that reads like a robot. Real SEO copy that competes with local brands and wins.</p>
+  <div class="pill-row">
+    <span class="pill-label">Brands I've worked with</span>
+    <span class="pill">Rosa Clará</span>
+    <span class="pill">Allianz</span>
+    <span class="pill">SABA</span>
+    <span class="pill">Tous</span>
+    <span class="pill">Clarel</span>
+    <span class="pill">Blinkist</span>
+  </div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══ WHY ME ═══ -->
+<section class="section" id="why">
+<div class="wrap">
+  <p class="section-eyebrow">Why me</p>
+  <h2 class="section-title">Not a translator. An SEO writer.</h2>
+  <p class="section-sub">There's a difference. Translators convert words. I research local SERPs, analyze regional competitors, and write content that actually ranks in Spain and Latin America.</p>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:48px;">
+    <div style="background:var(--white);border:1px solid var(--line);border-radius:12px;padding:24px;">
+      <p style="font-size:18px;margin-bottom:8px;">🔍</p>
+      <p style="font-weight:600;font-size:15px;margin-bottom:6px;">I know the Spanish-language SERPs</p>
+      <p style="font-size:13px;color:var(--ink-light);font-weight:300;line-height:1.7;">I don't guess what works in Spanish Google. I research it. Spain and Latin America have different competitors, different search intent, and different content expectations than the English market.</p>
+    </div>
+    <div style="background:var(--white);border:1px solid var(--line);border-radius:12px;padding:24px;">
+      <p style="font-size:18px;margin-bottom:8px;">✍️</p>
+      <p style="font-weight:600;font-size:15px;margin-bottom:6px;">Native content, not translations</p>
+      <p style="font-size:13px;color:var(--ink-light);font-weight:300;line-height:1.7;">Your Spanish content should sound like it was written for Spanish speakers from the start. Because it was. I handle both Spain (ES) and Latin American (ES-LATAM) localization, adapting tone, vocabulary and cultural references for each audience.</p>
+    </div>
+    <div style="background:var(--white);border:1px solid var(--line);border-radius:12px;padding:24px;">
+      <p style="font-size:18px;margin-bottom:8px;">📊</p>
+      <p style="font-weight:600;font-size:15px;margin-bottom:6px;">Verified results you can check</p>
+      <p style="font-size:13px;color:var(--ink-light);font-weight:300;line-height:1.7;">Every ranking I claim below is verifiable. I include links to the actual pages. Open Google in Spain, search the keyword, and see for yourself. These results prove I can compete and win in the Spanish-language market.</p>
+    </div>
+    <div style="background:var(--white);border:1px solid var(--line);border-radius:12px;padding:24px;">
+      <p style="font-size:18px;margin-bottom:8px;">🤖</p>
+      <p style="font-weight:600;font-size:15px;margin-bottom:6px;">AI-ready content</p>
+      <p style="font-size:13px;color:var(--ink-light);font-weight:300;line-height:1.7;">Two of my articles are cited in Google's AI Overview as reference sources. I understand how to write for both traditional search and the new AI-driven search landscape.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══ CASES ═══ -->
+<section class="section" id="cases">
+<div class="wrap">
+  <p class="section-eyebrow">Case studies</p>
+  <h2 class="section-title">Proof it works</h2>
+  <p class="section-sub">Content I wrote that still ranks on the first page of Google in Spain. The same approach works for any Spanish-speaking market.</p>
+
+  <!-- CASE 1: ROSA CLARÁ -->
+  <div class="case">
+    <div class="case-top">
+      <h3 class="case-brand">Rosa Clará</h3>
+      <span class="case-tag">9 landing pages · Bridal industry</span>
+    </div>
+    <div class="case-body">
+      <p class="case-label">Context</p>
+      <p>Rosa Clará is one of Spain's leading bridal brands. Their product category pages needed SEO-optimized content to compete against Pronovias, St. Patrick, and Aire Barcelona for high-value transactional keywords in the Spanish bridal market.</p>
+
+      <p class="case-label">What I did</p>
+      <p>I wrote and optimized the content for 9 category landing pages, working alongside their in-house SEO team (who designed the keyword strategy). My job was to analyze SERP competitors, write content aligned with search intent, optimize on-page structure (H1-H3), and integrate informational content within transactional product pages.</p>
+
+      <p class="case-label">Results</p>
+      <div class="metrics">
+        <div class="metric green"><div class="metric-num">3</div><div class="metric-label">keywords ranking #1 on Google Spain</div></div>
+        <div class="metric blue"><div class="metric-num">7 of 9</div><div class="metric-label">pages on Google's first page</div></div>
+        <div class="metric coral"><div class="metric-num">#3</div><div class="metric-label">"vestidos de novia" (head keyword)</div></div>
+      </div>
+
+      <p class="case-label">Verified positions · Google Spain, March 2026</p>
+      <table class="tbl">
+        <thead><tr><th>Keyword (Spanish)</th><th>Pos.</th><th>Outranking</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia/vestidos-novia-pedreria" target="_blank">Vestidos de novia con pedrería</a></td><td><span class="badge badge-1">#1</span></td><td style="font-size:12px;color:var(--ink-faint);">Pronovias, Araya, Aire BCN</td></tr>
+          <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia/vestidos-novia-elegantes" target="_blank">Vestidos de novia elegantes</a></td><td><span class="badge badge-1">#1</span></td><td style="font-size:12px;color:var(--ink-faint);">Pronovias, S. Navarro</td></tr>
+          <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia/vestidos-novia-modernos" target="_blank">Vestidos de novia modernos</a></td><td><span class="badge badge-1">#1</span></td><td style="font-size:12px;color:var(--ink-faint);">House of St. Patrick</td></tr>
+          <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia" target="_blank">Vestidos de novia</a></td><td><span class="badge badge-3">#3</span></td><td style="font-size:12px;color:var(--ink-faint);">Top head keyword, fiercely competitive</td></tr>
+          <tr><td>Vestidos de novia corte princesa</td><td><span class="badge badge-3">#3</span></td><td style="font-size:12px;color:var(--ink-faint);">St. Patrick, Pronovias</td></tr>
+          <tr><td>Vestidos de novia sencillos</td><td><span class="badge badge-3">#3</span></td><td style="font-size:12px;color:var(--ink-faint);">Mimetik, Coquette Bon Chic</td></tr>
+          <tr><td>Vestidos para madrina</td><td><span class="badge badge-3">#3</span></td><td style="font-size:12px;color:var(--ink-faint);">S. Navarro, Matilde Cano</td></tr>
+          <tr><td>Vestidos de invitada</td><td><span class="badge badge-10">#5</span></td><td style="font-size:12px;color:var(--ink-faint);">Page 1, highly competitive keyword</td></tr>
+        </tbody>
+      </table>
+
+      <div class="pullquote">9 landing pages written. 7 on Google's first page. 3 ranking #1, outranking Pronovias, Aire Barcelona, and St. Patrick. The main landing gets 21K+ organic visits per month.</div>
+    </div>
+  </div>
+
+  <!-- CASE 2: SABA -->
+  <div class="case">
+    <div class="case-top">
+      <h3 class="case-brand">SABA Parkings</h3>
+      <span class="case-tag">6 landing pages · Local SEO</span>
+    </div>
+    <div class="case-body">
+      <p class="case-label">Context</p>
+      <p>SABA is a major parking operator in Spain. They needed their city-specific landing pages to rank for high-intent local searches like "parkings Barcelona" and "parkings Madrid".</p>
+
+      <p class="case-label">What I did</p>
+      <p>I wrote and optimized 6 city landing pages plus a national landing page. My focus was on local search intent, on-page SEO structure, and content that matched the geographic positioning strategy.</p>
+
+      <p class="case-label">Results</p>
+      <div class="metrics">
+        <div class="metric green"><div class="metric-num">3</div><div class="metric-label">cities ranking #1 on Google Spain</div></div>
+        <div class="metric blue"><div class="metric-num">6</div><div class="metric-label">city landing pages optimized</div></div>
+        <div class="metric coral"><div class="metric-num">Page 1</div><div class="metric-label">"parkings España" (national)</div></div>
+      </div>
+
+      <table class="tbl">
+        <thead><tr><th>Keyword</th><th>Position</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://www.saba.es/es/parking-barcelona" target="_blank">parkings Barcelona</a></td><td><span class="badge badge-1">#1</span></td></tr>
+          <tr><td><a href="https://www.saba.es/es/parking-madrid" target="_blank">parkings Madrid</a></td><td><span class="badge badge-1">#1</span></td></tr>
+          <tr><td><a href="https://www.saba.es/es/parking-sevilla" target="_blank">parkings Sevilla</a></td><td><span class="badge badge-1">#1</span></td></tr>
+          <tr><td><a href="https://www.saba.es/es/" target="_blank">parkings España</a></td><td><span class="badge badge-3">Page 1</span></td></tr>
+          <tr><td>parkings A Coruña</td><td><span class="badge badge-10">Page 1</span></td></tr>
+        </tbody>
+      </table>
+
+      <div class="pullquote">SABA's three main cities (Barcelona, Madrid, Seville) all rank #1 on Google for their parking keywords.</div>
+    </div>
+  </div>
+
+  <!-- CASE 3: ALLIANZ -->
+  <div class="case">
+    <div class="case-top">
+      <h3 class="case-brand">Allianz Spain</h3>
+      <span class="case-tag">Blog SEO · Finance + Insurance</span>
+    </div>
+    <div class="case-body">
+      <p class="case-label">Context</p>
+      <p>Allianz Spain needed informational blog content that could compete with specialized financial media and industry players for high-value queries around retirement planning and insurance topics.</p>
+
+      <p class="case-label">What I did</p>
+      <p>I wrote SEO articles across multiple verticals (finance and automotive insurance) for the Allianz Spain corporate blog. My work involved competitor research, search intent analysis, and on-page optimization designed for both featured snippets and Google's AI-generated responses. All articles were published in 2022 and remain active and ranking in 2026.</p>
+
+      <p class="case-label">Results</p>
+      <div class="metrics">
+        <div class="metric green"><div class="metric-num">#1</div><div class="metric-label">"renta vitalicia inmobiliaria"</div></div>
+        <div class="metric blue"><div class="metric-num">2</div><div class="metric-label">articles cited by Google's AI Overview</div></div>
+        <div class="metric coral"><div class="metric-num">+3 years</div><div class="metric-label">still ranking (published 2022)</div></div>
+      </div>
+
+      <p class="case-label">Article 1 · #1 on Google Spain</p>
+      <div class="serp">
+        <div class="serp-bar"><span>🔍</span><span>renta vitalicia inmobiliaria</span></div>
+        <div class="serp-hit active">
+          <div class="serp-url"><span class="dot" style="background:#003781;">A</span>allianz.es › blog › ahorro<span class="serp-badge-inline">↑ #1</span></div>
+          <div class="serp-title">Renta Vitalicia Inmobiliaria: ¿qué es y cómo funciona?</div>
+          <div class="serp-desc">La renta vitalicia inmobiliaria es un contrato formalizado ante notario...</div>
+        </div>
+        <div class="serp-hit serp-faded">
+          <div class="serp-url"><span class="dot" style="background:#aaa;">M</span>aunmasvida.es</div>
+          <div class="serp-title">Renta Vitalicia Inmobiliaria - Mas Vida</div>
+        </div>
+        <div class="serp-hit serp-faded">
+          <div class="serp-url"><span class="dot" style="background:#aaa;">D</span>donpiso.com</div>
+          <div class="serp-title">Renta vitalicia inmobiliaria | Donpiso</div>
+        </div>
+      </div>
+
+      <p class="case-label">Articles 2 & 3 · Cited in Google's AI Overview</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px;">
+        <div class="ai-box">
+          <div class="ai-head">✨ AI Overview</div>
+          <div class="ai-text">🔍 <em>"errores planificación jubilación"</em></div>
+          <div class="ai-chips">
+            <span class="ai-chip"><span class="cd" style="background:#4285F4;">B</span>Bankinter</span>
+            <span class="ai-chip hl"><span class="cd" style="background:var(--sage);">A</span>Allianz ✍️</span>
+            <span class="ai-chip"><span class="cd" style="background:#4285F4;">S</span>SyPpT</span>
+          </div>
+        </div>
+        <div class="ai-box">
+          <div class="ai-head">✨ AI Overview</div>
+          <div class="ai-text">🔍 <em>"por qué mi coche no pasa la itv"</em></div>
+          <div class="ai-chips">
+            <span class="ai-chip"><span class="cd" style="background:#4285F4;">C</span>Cerquoitv</span>
+            <span class="ai-chip hl"><span class="cd" style="background:var(--sage);">A</span>Allianz ✍️</span>
+            <span class="ai-chip"><span class="cd" style="background:#4285F4;">H</span>Helvetia</span>
+          </div>
+        </div>
+      </div>
+
+      <table class="tbl">
+        <thead><tr><th>Article</th><th>Vertical</th><th>Result</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://www.allianz.es/blog/ahorro/renta-vitalicia-inmobiliaria.html" target="_blank">Renta vitalicia inmobiliaria</a></td><td style="font-size:12px;color:var(--ink-faint);">Finance</td><td><span class="badge badge-1">#1</span></td></tr>
+          <tr><td><a href="https://www.allianz.es/blog/coberturas/errores-jubilacion.htm" target="_blank">6 errores al planificar la jubilación</a></td><td style="font-size:12px;color:var(--ink-faint);">Finance</td><td><span class="badge badge-ai">AI Overview</span></td></tr>
+          <tr><td><a href="https://www.allianz.es/blog/motor/pasar-itv.html" target="_blank">ITV desfavorable: 5 causas</a></td><td style="font-size:12px;color:var(--ink-faint);">Automotive</td><td><span class="badge badge-10">#7</span> <span class="badge badge-ai">AI</span></td></tr>
+        </tbody>
+      </table>
+
+      <div class="pullquote">3 articles from 2022, all still ranking in 2026. One holds the #1 spot beating specialized industry players. Two are cited by Google's AI as reference sources. They cover finance and automotive, proving that quality SEO writing works across verticals.</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══ ABOUT ═══ -->
+<section class="section" id="about" style="background:var(--white);">
+<div class="wrap">
+  <p class="section-eyebrow">About me</p>
+  <h2 class="section-title">Mónica Gómez Vesga</h2>
+  <img src="monica-foto.png" alt="Mónica Gómez Vesga" class="about-photo" onerror="this.style.display='none'">
+  <div class="about-grid" style="margin-top:32px;">
+    <div>
+      <p>I'm a Barcelona-based SEO content writer and creative copywriter. I specialize in helping brands build organic visibility in Spanish-speaking markets through content that actually ranks.</p>
+      <p>My process starts with keyword research, competitor analysis, and understanding the brand's voice. I don't just translate your English content into Spanish. I research the local SERPs, identify what's working in each market, and write content built to compete.</p>
+      <p>My case studies are from Google Spain, where I live and work. I also handle <strong>ES-LATAM localization</strong> for brands expanding into Mexico, Colombia, Argentina and other Latin American markets, adapting tone, vocabulary and cultural context so the content feels local everywhere.</p>
+      <div class="skill-row">
+        <span class="skill">Spanish SEO writing</span><span class="skill">Keyword research</span>
+        <span class="skill">Content localization</span><span class="skill">Spain (ES) content</span>
+        <span class="skill">LATAM localization</span><span class="skill">On-page SEO</span>
+        <span class="skill">AI-assisted workflows</span><span class="skill">Copywriting</span>
+      </div>
+    </div>
+    <div>
+      <p class="about-h4">Experience</p>
+      <p>Copywriter at <strong>Blinkist</strong> (book summaries, German tech company). Creative writing for <strong>Club Coco</strong> (Dutch music label). Podcast producer for <strong>La Candela Viva</strong>.</p>
+      <p class="about-h4">Languages</p>
+      <p>Spanish (native) · English (professional) · French (basic)</p>
+      <p class="about-h4">Contact</p>
+      <p><a href="mailto:mnca.gov@gmail.com" style="text-decoration:none;border-bottom:1px dotted var(--coral);">mnca.gov@gmail.com</a></p>
+      <p><a href="https://www.linkedin.com/in/monicagomezvesga/" target="_blank" style="text-decoration:none;border-bottom:1px dotted var(--coral);">LinkedIn →</a></p>
+    </div>
+  </div>
+</div>
+</section>
+
+<

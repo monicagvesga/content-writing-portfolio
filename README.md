@@ -9,6 +9,14 @@ I run the content engine: calendar, freelancers, publishing, and performance.
 
 📍 Barcelona (CET) · 🌐 [Portfolio](https://monicagvesga.netlify.app/en) · 💼 [LinkedIn](https://www.linkedin.com/in/) · ✉️ [email]
 
+> 🔴 **Live interactive site (GitHub Pages):** once Pages is enabled, this repo serves
+> two linked portfolios from one place:
+> - `…github.io/content-portfolio/` — my **Tech & AI** profile (English)
+> - `…github.io/content-portfolio/seo-portfolio/` — my in-depth **SEO & copywriting**
+>   portfolio (Spanish, with an English version at `/seo-portfolio/en.html`)
+>
+> A toggle on the landing page moves between them.
+
 > **Why this repo?** Most content marketers send a PDF. I'm a content person who
 > works comfortably in Markdown and GitHub — the native tools of the developer
 > audiences I write for. Everything here is one click away: case studies with real
