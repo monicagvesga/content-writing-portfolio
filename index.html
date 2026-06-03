@@ -172,6 +172,14 @@
   .ai-chip .cdot{width:11px;height:11px;border-radius:50%;background:currentColor;opacity:.45}
   .ai-chip.on .cdot{opacity:1}
   .mock-cap{font-size:11px;color:var(--ink-faint);text-align:center;font-style:italic;margin-top:3px}
+
+  /* TOOLKIT */
+  .toolset{display:flex;flex-direction:column;gap:18px}
+  .toolrow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+  .toolrow .tlabel{font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint);width:150px;flex-shrink:0}
+  @media(max-width:600px){.toolrow .tlabel{width:100%}}
+  .tool{font-size:14px;font-weight:600;color:var(--ink-soft);padding:8px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);transition:transform .2s,border-color .2s,color .2s}
+  .tool:hover{border-color:var(--rust);color:var(--rust);transform:translateY(-2px)}
   .shot-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:40px 28px;text-align:center;color:var(--ink-faint);font-size:13px;line-height:1.5}
   .shot-empty .ic{font-size:30px;opacity:.6}
   .shot-empty code{background:var(--card);border:1px solid var(--line);padding:3px 8px;border-radius:5px;font-size:11.5px;color:var(--rust-deep);font-family:ui-monospace,monospace}
@@ -228,6 +236,7 @@
     <div class="nav-links">
       <a href="#work">Work</a>
       <a href="#range">What I do</a>
+      <a href="#tools">Tools</a>
       <a href="#ai">AI workflow</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
@@ -258,8 +267,8 @@
       <div class="prof here">
         <span class="pf-flag">EN · here</span>
         <div>
-          <div class="pf-t">Tech &amp; AI profile</div>
-          <div class="pf-d">Content for SaaS &amp; tech, AEO/GEO, AI workflows, technical writing.</div>
+          <div class="pf-t">SEO + AI content (EN)</div>
+          <div class="pf-d">SEO writing &amp; editing, AEO/GEO, support &amp; onboarding content, AI-augmented workflows.</div>
         </div>
       </div>
       <a class="prof link" href="seo-portfolio/en.html">
@@ -277,7 +286,7 @@
   <div class="stats-in">
     <div class="stat rev"><div class="stat-n" data-count="8" data-suffix="">0</div><div class="stat-l">Years in content</div></div>
     <div class="stat rev"><div class="stat-n" data-count="7" data-suffix="">0</div><div class="stat-l">Landings on page 1 of Google</div></div>
-    <div class="stat rev"><div class="stat-n" data-count="3" data-suffix="×">0</div><div class="stat-l">Articles cited in AI Overview</div></div>
+    <div class="stat rev"><div class="stat-n" data-count="14" data-suffix="">0</div><div class="stat-l">Brands &amp; clients</div></div>
     <div class="stat rev"><div class="stat-n" data-count="15" data-suffix="+">0</div><div class="stat-l">Freelancers briefed &amp; edited</div></div>
   </div>
 </div>
@@ -287,7 +296,7 @@
     <div class="sec-head rev">
       <div class="sec-kicker">Selected work</div>
       <h2 class="sec-h">Results you can click on.</h2>
-      <p class="sec-intro">A condensed proof of results, framed around AI search and tech. Filter by discipline and follow the links to live work. For the full visual deep-dive on SEO and copywriting, see my <a href="seo-portfolio/en.html" style="color:var(--rust);border-bottom:1px solid var(--rust)">SEO writing portfolio</a>.</p>
+      <p class="sec-intro">A condensed proof of results, framed around SEO and AI search. Filter by discipline and follow the links to live work. For the full visual deep-dive on SEO and copywriting, see my <a href="seo-portfolio/en.html" style="color:var(--rust);border-bottom:1px solid var(--rust)">SEO writing portfolio</a>.</p>
     </div>
 
     <div class="filter rev">
@@ -467,11 +476,11 @@
     <div class="sec-head rev">
       <div class="sec-kicker">Full range</div>
       <h2 class="sec-h">One writer, many formats.</h2>
-      <p class="sec-intro">I adapt voice and structure across the whole content surface, from a developer reading docs at midnight to a CMO skimming a one-pager.</p>
+      <p class="sec-intro">I adapt voice and structure across the whole content surface, from a new customer reading a help doc to a CMO skimming a one-pager.</p>
     </div>
     <div class="range">
       <div class="rcard rev"><div class="ic">📝</div><h4>Blog &amp; editorial</h4><p>SEO articles, thought leadership, top-of-funnel education.</p></div>
-      <div class="rcard rev"><div class="ic">🧩</div><h4>Technical tutorials</h4><p>Developer-audience how-tos, working with SMEs and AI on the detail.</p></div>
+      <div class="rcard rev"><div class="ic">🧩</div><h4>Knowledge base &amp; support</h4><p>Help-center articles, onboarding docs, macros &amp; templates (Zendesk).</p></div>
       <div class="rcard rev"><div class="ic">🎯</div><h4>Landing pages</h4><p>Conversion copy mapped to search intent and the funnel.</p></div>
       <div class="rcard rev"><div class="ic">✉️</div><h4>Email sequences</h4><p>Nurture, onboarding and lifecycle flows.</p></div>
       <div class="rcard rev"><div class="ic">🎬</div><h4>Video scripts</h4><p>Short-form and explainer scripts.</p></div>
@@ -494,6 +503,7 @@
           <li><b>Drafting scaffolds</b> to kill the blank page and react against.</li>
           <li><b>Editing &amp; QA</b> as a second set of eyes for tone drift and gaps.</li>
           <li><b>Localization checks</b> across ES and LATAM phrasing.</li>
+          <li><b>Structuring for AI search</b>: clear answers, FAQs and semantic formats, so content gets surfaced and quoted (see the Allianz case above).</li>
         </ul>
         <p style="margin-top:16px;font-size:14px;color:var(--ink-faint)">Tools I use daily: Claude, ChatGPT, NotebookLM. I built a prompt system to keep tone consistent across contributors at Blinkist.</p>
       </div>
@@ -505,8 +515,29 @@
           <li><b>Calendar ownership</b> across every workstream at once.</li>
           <li><b>Clear briefs</b> so contributors deliver right the first time.</li>
           <li><b>Editing for consistency</b> across a dozen different hands.</li>
-          <li><b>Systems, not one-offs</b>: at Ticketdoor I rebuilt the support taxonomy and macros from scratch in Zendesk.</li>
+          <li><b>Customer support &amp; systems</b>: at Ticketdoor I handled support and rebuilt the ticket taxonomy, macros and templates in Zendesk.</li>
         </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tools" style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head rev">
+      <div class="sec-kicker">Toolkit</div>
+      <h2 class="sec-h" style="font-size:32px">Tools I work with</h2>
+      <p class="sec-intro" style="margin-bottom:30px">The day-to-day stack behind the results, across SEO, analytics, AI-search research and content ops.</p>
+    </div>
+    <div class="toolset rev">
+      <div class="toolrow"><span class="tlabel">SEO &amp; analytics</span>
+        <span class="tool">Semrush</span><span class="tool">Ahrefs</span><span class="tool">Google Search Console</span><span class="tool">Google Analytics (GA4)</span>
+      </div>
+      <div class="toolrow"><span class="tlabel">AI &amp; search research</span>
+        <span class="tool">ChatGPT</span><span class="tool">Claude</span><span class="tool">Perplexity</span><span class="tool">NotebookLM</span>
+      </div>
+      <div class="toolrow"><span class="tlabel">Content &amp; ops</span>
+        <span class="tool">Notion</span><span class="tool">Zendesk</span><span class="tool">WordPress</span>
       </div>
     </div>
   </div>
@@ -552,7 +583,7 @@
 <section id="contact" class="contact">
   <div class="wrap">
     <h2>Let's make content<br>that <span class="serif-it">gets found.</span></h2>
-    <p>Open to content roles in SaaS, tech and beyond.</p>
+    <p>Open to SEO, AI search (AEO/GEO) and content &amp; editing roles.</p>
     <div class="contact-links">
       <a class="btn btn-primary" href="mailto:mnca.gov@gmail.com">Email me</a>
       <a class="btn btn-ghost" href="https://www.linkedin.com/in/monicagomezvesga/" target="_blank">LinkedIn</a>
@@ -562,7 +593,7 @@
 </section>
 
 <footer>
-  <div class="wrap">Built and maintained by Mónica Gómez Vesga · Barcelona · Designed in collaboration with AI</div>
+  <div class="wrap">Words and edits by Mónica Gómez Vesga · Barcelona</div>
 </footer>
 
 <script>
