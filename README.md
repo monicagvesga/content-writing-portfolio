@@ -1,13 +1,14 @@
 # Mónica Gómez Vesga
 
-### Content Specialist · SEO + AEO/GEO · AI-Augmented Workflows for SaaS & Tech
+### Bilingual Content Writer & Editor (EN/ES) · SEO & Localization · Spain & LATAM
 
-Bilingual (ES native / EN C1) content strategist with 10+ years turning marketing
-direction into published assets that rank, get cited by AI search, and move pipeline.
-Journalist by training, editor by craft, systems-thinker by habit — I don't just write,
-I run the content engine: calendar, freelancers, publishing, and performance.
+Bilingual writer and editor who has been doing SEO since 2019 and writing for both
+Spain and LATAM. Around eight years working with words overall. I make content that ranks on Google,
+gets quoted by AI search, and still reads like a human wrote it. Because one did.
+Journalist by training, editor by obsession, happiest with a clean sentence and a full
+content calendar.
 
-📍 Barcelona (CET) · 🌐 [Portfolio](https://monicagvesga.netlify.app/en) · 💼 [LinkedIn](https://www.linkedin.com/in/) · ✉️ [email]
+📍 Barcelona (CET) · 🌐 [Portfolio](https://monicagvesga.netlify.app/en) · 💼 [LinkedIn](https://www.linkedin.com/in/monicagomezvesga/) · ✉️ mnca.gov@gmail.com
 
 > 🔴 **Live interactive site (GitHub Pages):** once Pages is enabled, this repo serves
 > two linked portfolios from one place:
