@@ -1,629 +1,672 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mónica Gómez Vesga — Bilingual Content Writer & Editor (EN/ES)</title>
-<meta name="description" content="Bilingual content writer and editor (EN/ES). SEO since 2019, localization for Spain and LATAM, and content that gets quoted by AI search. Verified results across blog, landing pages and editorial.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..700&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>Mónica Gómez Vesga · Content Manager & Redactora SEO</title>
+<meta name="description" content="Portafolio de Mónica Gómez Vesga. Content Manager con resultados verificables en SEO, GEO y localización. Casos de estudio con Rosa Clará, SABA y Allianz.">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --paper:#F6F0E6; --paper-2:#FBF7EF; --card:#FFFDF8;
-    --ink:#241D18; --ink-soft:#574C42; --ink-faint:#8C7F70;
-    --rust:#BE4F36; --rust-deep:#993C28; --sage:#6B7A58;
-    --gold:#A9792A; --line:#E4D9C7; --line-soft:#EFE7D8;
-    --shadow:0 1px 2px rgba(60,40,20,.04),0 8px 30px rgba(80,55,25,.06);
-    --shadow-lg:0 4px 12px rgba(60,40,20,.06),0 24px 60px rgba(80,55,25,.10);
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{
-    background:var(--paper); color:var(--ink);
-    font-family:'Hanken Grotesk',sans-serif; font-weight:400;
-    line-height:1.6; font-size:17px; -webkit-font-smoothing:antialiased;
-    background-image:radial-gradient(circle at 12% 8%,rgba(190,79,54,.05),transparent 38%),radial-gradient(circle at 88% 92%,rgba(107,122,88,.05),transparent 42%);
-    background-attachment:fixed;
-  }
-  .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
-  h1,h2,h3,h4{font-family:'Fraunces',serif;font-weight:500;line-height:1.08;letter-spacing:-.01em}
-  a{color:inherit}
-  .accent{color:var(--rust)}
-  .serif-it{font-family:'Fraunces',serif;font-style:italic;font-weight:400}
+:root {
+  --cream: #FAF7F2;
+  --white: #FFFFFF;
+  --ink: #1C1917;
+  --ink-light: #57534E;
+  --ink-faint: #A8A29E;
+  --coral: #E8613C;
+  --coral-light: #FEF2EE;
+  --sage: #2D7A4F;
+  --sage-light: #ECFDF3;
+  --navy: #1E3A5F;
+  --navy-light: #EFF6FF;
+  --line: #E7E5E4;
+  --line-dark: #D6D3D1;
+  --shadow-sm: 0 1px 2px rgba(28,25,23,0.05);
+  --shadow-md: 0 4px 16px rgba(28,25,23,0.07);
+  --shadow-lg: 0 8px 32px rgba(28,25,23,0.1);
+  --r: 16px;
+  --max: 780px;
+}
 
-  /* NAV */
-  nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(10px);
-    background:rgba(246,240,230,.82);border-bottom:1px solid var(--line-soft)}
-  .nav-in{max-width:1080px;margin:0 auto;padding:14px 28px;display:flex;justify-content:space-between;align-items:center}
-  .nav-name{font-family:'Fraunces',serif;font-weight:600;font-size:18px;letter-spacing:-.02em}
-  .nav-name span{color:var(--rust)}
-  .nav-links{display:flex;gap:26px;font-size:14px;font-weight:500}
-  .nav-links a{text-decoration:none;color:var(--ink-soft);transition:color .2s;position:relative}
-  .nav-links a:hover{color:var(--rust)}
-  .nav-links a::after{content:'';position:absolute;left:0;bottom:-4px;width:0;height:1.5px;background:var(--rust);transition:width .25s}
-  .nav-links a:hover::after{width:100%}
-  @media(max-width:760px){.nav-links{display:none}}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  font-family:'Outfit',sans-serif;
+  background:var(--cream);
+  color:var(--ink);
+  line-height:1.7;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
 
-  /* HERO */
-  header{padding:80px 0 60px;position:relative;overflow:hidden}
-  .eyebrow{font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--rust);margin-bottom:22px}
-  .hero-h{font-size:clamp(44px,7.5vw,86px);font-weight:400;line-height:.98;letter-spacing:-.025em;margin-bottom:6px}
-  .hero-h b{font-weight:600}
-  .hero-sub{font-family:'Fraunces',serif;font-style:italic;font-weight:400;font-size:clamp(22px,3vw,30px);color:var(--rust-deep);margin:10px 0 26px;letter-spacing:-.01em}
-  .hero-p{font-size:19px;max-width:600px;color:var(--ink-soft);margin-bottom:30px}
-  .hero-p b{color:var(--ink);font-weight:600}
-  .pills{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:34px}
-  .pill{font-size:13px;font-weight:600;padding:6px 14px;border:1px solid var(--line);border-radius:30px;background:var(--card);color:var(--ink-soft)}
-  .pill.on{background:var(--ink);color:var(--paper-2);border-color:var(--ink)}
-  .cta-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
-  .btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:600;font-size:15px;padding:12px 22px;border-radius:8px;transition:transform .2s,box-shadow .2s}
-  .btn-primary{background:var(--rust);color:#fff;box-shadow:0 4px 16px rgba(190,79,54,.28)}
-  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 26px rgba(190,79,54,.36)}
-  .btn-ghost{border:1px solid var(--line);color:var(--ink);background:var(--card)}
-  .btn-ghost:hover{border-color:var(--ink);transform:translateY(-2px)}
+.wrap { max-width:var(--max); margin:0 auto; padding:0 28px; }
+a { color:var(--coral); }
+a:hover { color:var(--navy); }
 
-  /* PROFILE SWITCH */
-  .profiles{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:38px;max-width:680px}
-  @media(max-width:600px){.profiles{grid-template-columns:1fr}}
-  .prof{display:flex;gap:14px;align-items:flex-start;padding:18px 20px;border-radius:12px;text-decoration:none;border:1px solid var(--line);transition:transform .25s,border-color .25s,box-shadow .25s}
-  .prof.here{background:var(--ink);border-color:var(--ink)}
-  .prof.here .pf-t{color:var(--paper-2)} .prof.here .pf-d{color:rgba(246,240,230,.6)}
-  .prof.link{background:var(--card)}
-  .prof.link:hover{transform:translateY(-3px);border-color:var(--rust);box-shadow:var(--shadow-lg)}
-  .pf-flag{font-size:12px;font-weight:700;letter-spacing:.05em;padding:5px 9px;border-radius:6px;white-space:nowrap;flex-shrink:0}
-  .prof.here .pf-flag{background:var(--rust);color:#fff}
-  .prof.link .pf-flag{background:rgba(107,122,88,.14);color:var(--sage)}
-  .pf-t{font-weight:700;font-size:14.5px;color:var(--ink);line-height:1.3}
-  .pf-d{font-size:12.5px;color:var(--ink-faint);margin-top:3px;line-height:1.4}
+/* ── HERO ── */
+.hero { padding:90px 0 70px; }
+.hero-eyebrow {
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12px; font-weight:500;
+  letter-spacing:2px; text-transform:uppercase;
+  color:var(--coral); margin-bottom:20px;
+}
+.hero h1 {
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(32px,5vw,48px);
+  line-height:1.2; font-weight:400;
+  margin-bottom:24px;
+}
+.hero h1 span {
+  font-style:italic; color:var(--coral);
+  display:block; font-size:0.7em;
+  margin-top:4px;
+}
+.hero-text {
+  font-size:18px; color:var(--ink-light);
+  max-width:560px; margin-bottom:36px;
+  font-weight:300; line-height:1.8;
+}
+.pill-row { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+.pill-label { font-size:13px; color:var(--ink-faint); font-weight:500; margin-right:4px; }
+.pill {
+  font-size:12px; font-weight:500;
+  color:var(--ink-light);
+  background:var(--white);
+  border:1px solid var(--line);
+  padding:5px 14px; border-radius:100px;
+  transition:all 0.2s;
+}
+.pill:hover { border-color:var(--coral); color:var(--coral); }
 
-  /* reveal */
-  .rev{opacity:0;transform:translateY(22px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
-  .rev.in{opacity:1;transform:none}
+/* ── DIVIDER ── */
+.divider {
+  height:1px; background:var(--line);
+  margin:0;
+}
 
-  /* STATS */
-  .stats{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--paper-2)}
-  .stats-in{display:grid;grid-template-columns:repeat(4,1fr);gap:0;max-width:1080px;margin:0 auto}
-  .stat{padding:34px 22px;text-align:center;border-right:1px solid var(--line-soft)}
-  .stat:last-child{border-right:none}
-  .stat-n{font-family:'Fraunces',serif;font-weight:600;font-size:46px;line-height:1;color:var(--rust);letter-spacing:-.02em}
-  .stat-l{font-size:13px;font-weight:500;color:var(--ink-soft);margin-top:8px;letter-spacing:.02em}
-  @media(max-width:760px){.stats-in{grid-template-columns:repeat(2,1fr)}.stat{border-bottom:1px solid var(--line-soft)}.stat:nth-child(2){border-right:none}}
+/* ── SECTION ── */
+.section { padding:72px 0; }
+.section-eyebrow {
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px; font-weight:500;
+  letter-spacing:2.5px; text-transform:uppercase;
+  color:var(--coral); margin-bottom:10px;
+}
+.section-title {
+  font-family:'Libre Baskerville',serif;
+  font-size:clamp(24px,3.5vw,36px);
+  font-weight:400; margin-bottom:8px;
+}
+.section-sub {
+  font-size:16px; color:var(--ink-light);
+  font-weight:300; margin-bottom:48px;
+  max-width:500px;
+}
 
-  /* SECTIONS */
-  section{padding:78px 0}
-  .sec-head{margin-bottom:14px}
-  .sec-kicker{font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--sage);margin-bottom:14px}
-  .sec-h{font-size:clamp(32px,4.5vw,48px);font-weight:500;letter-spacing:-.02em;margin-bottom:18px}
-  .sec-intro{font-size:18px;color:var(--ink-soft);max-width:640px;margin-bottom:40px}
+/* ── CASE CARD ── */
+.case {
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  margin-bottom:40px;
+  overflow:hidden;
+  box-shadow:var(--shadow-sm);
+  transition:box-shadow 0.3s;
+}
+.case:hover { box-shadow:var(--shadow-md); }
 
-  /* FILTER */
-  .filter{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:38px}
-  .fbtn{font-size:14px;font-weight:600;padding:9px 18px;border-radius:30px;border:1px solid var(--line);background:var(--card);color:var(--ink-soft);cursor:pointer;transition:all .2s}
-  .fbtn:hover{border-color:var(--rust);color:var(--rust)}
-  .fbtn.active{background:var(--rust);color:#fff;border-color:var(--rust)}
+.case-top {
+  padding:32px 36px 24px;
+  border-bottom:1px solid var(--line);
+  display:flex; justify-content:space-between;
+  align-items:flex-start; gap:16px; flex-wrap:wrap;
+}
+.case-brand {
+  font-family:'Libre Baskerville',serif;
+  font-size:22px; font-weight:400;
+}
+.case-tag {
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px; font-weight:500;
+  letter-spacing:1.5px; text-transform:uppercase;
+  color:var(--ink-faint);
+  border:1px solid var(--line);
+  padding:4px 12px; border-radius:6px;
+  white-space:nowrap;
+}
 
-  /* CASE CARDS */
-  .cases{display:flex;flex-direction:column;gap:30px}
-  .case{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);transition:transform .35s,box-shadow .35s,opacity .35s}
-  .case:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
-  .case.hide{display:none}
-  .case-grid{display:grid;grid-template-columns:1.15fr 1fr}
-  @media(max-width:820px){.case-grid{grid-template-columns:1fr}}
-  .case-body{padding:38px 40px}
-  .case-tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--rust);background:rgba(190,79,54,.09);padding:4px 11px;border-radius:6px;margin-bottom:16px}
-  .case-tag.sage{color:var(--sage);background:rgba(107,122,88,.1)}
-  .case-tag.gold{color:var(--gold);background:rgba(169,121,42,.12)}
-  .case-h{font-size:28px;font-weight:600;margin-bottom:6px;letter-spacing:-.01em}
-  .case-client{font-size:14px;font-weight:600;color:var(--ink-faint);margin-bottom:18px}
-  .case-txt{font-size:15.5px;color:var(--ink-soft);margin-bottom:20px}
-  .case-txt b{color:var(--ink);font-weight:600}
-  .case-label{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);margin:22px 0 12px}
+.case-body { padding:28px 36px 36px; }
 
-  /* ranking table */
-  table{width:100%;border-collapse:collapse;font-size:14px}
-  table td{padding:9px 0;border-bottom:1px solid var(--line-soft)}
-  table tr:last-child td{border-bottom:none}
-  table a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line);transition:border-color .2s,color .2s}
-  table a:hover{color:var(--rust);border-color:var(--rust)}
-  .badge{display:inline-block;font-weight:700;font-size:12px;padding:3px 9px;border-radius:20px;min-width:34px;text-align:center}
-  .b1{background:var(--rust);color:#fff}
-  .b3{background:rgba(169,121,42,.16);color:var(--gold)}
-  .b-ai{background:var(--ink);color:var(--paper-2);font-size:11px}
-  .td-comp{font-size:12px;color:var(--ink-faint)}
+.case-label {
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px; font-weight:500;
+  letter-spacing:2px; text-transform:uppercase;
+  color:var(--ink-faint); margin-bottom:8px;
+}
 
-  /* traffic dash */
-  .dash{background:var(--paper-2);border:1px solid var(--line-soft);border-radius:12px;padding:18px 20px}
-  .drow{display:flex;align-items:center;gap:12px;padding:7px 0}
-  .dname{flex:1;font-size:14px;font-weight:500}
-  .dbar{flex:0 0 90px;height:7px;background:var(--line);border-radius:6px;overflow:hidden}
-  .dbar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--rust),var(--rust-deep));border-radius:6px;transition:width 1.1s cubic-bezier(.2,.7,.2,1)}
-  .dnum{flex:0 0 56px;text-align:right;font-family:'Fraunces',serif;font-weight:600;font-size:17px;color:var(--rust)}
+.case-body > p {
+  font-size:15px; color:var(--ink-light);
+  margin-bottom:24px; font-weight:300;
+  line-height:1.75;
+}
 
-  /* screenshot slot */
-  .case-shot{position:relative;background:var(--paper-2);border-left:1px solid var(--line);min-height:100%;display:flex;align-items:center;justify-content:center}
-  @media(max-width:820px){.case-shot{border-left:none;border-top:1px solid var(--line);min-height:200px}}
-  .case-shot img{width:100%;height:100%;object-fit:contain;object-position:center;display:block;padding:14px;background:var(--paper-2)}
+/* ── METRICS ROW ── */
+.metrics {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px; margin-bottom:32px;
+}
+.metric {
+  text-align:center; padding:20px 12px;
+  border-radius:12px;
+}
+.metric.green { background:var(--sage-light); }
+.metric.blue { background:var(--navy-light); }
+.metric.coral { background:var(--coral-light); }
+.metric-num {
+  font-family:'Libre Baskerville',serif;
+  font-size:28px; font-weight:700;
+  line-height:1; margin-bottom:6px;
+}
+.metric.green .metric-num { color:var(--sage); }
+.metric.blue .metric-num { color:var(--navy); }
+.metric.coral .metric-num { color:var(--coral); }
+.metric-label {
+  font-size:12px; color:var(--ink-light);
+  font-weight:400; line-height:1.4;
+}
 
-  /* SERP / AI OVERVIEW MOCKUPS */
-  .mock{width:100%;padding:28px 26px;display:flex;flex-direction:column;gap:13px}
-  .mock-bar{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:30px;padding:11px 18px;font-size:13px;color:var(--ink-soft);box-shadow:var(--shadow)}
-  .mock-q{font-weight:500}
-  .mock-bar .mg{margin-left:auto;color:var(--ink-faint);font-size:15px}
-  .serp-row{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px;display:flex;flex-direction:column;gap:4px;transition:transform .2s ease,border-color .2s ease}
-  .serp-row.top{border-color:var(--rust);box-shadow:0 6px 20px rgba(190,79,54,.12)}
-  .serp-row:hover{transform:translateX(3px)}
-  .serp-meta{display:flex;align-items:center;gap:7px;font-size:11.5px;color:var(--ink-faint)}
-  .serp-fav{width:17px;height:17px;border-radius:50%;background:var(--rust);flex-shrink:0;display:inline-flex;align-items:center;justify-content:center;color:#fff;font-size:9px;font-weight:700}
-  .serp-fav.g{background:var(--ink-faint)}
-  .serp-rank{margin-left:auto}
-  .serp-title{font-size:14px;font-weight:600;color:var(--rust-deep);line-height:1.3}
-  .serp-row.dim{opacity:.62}
-  .serp-row.dim .serp-title{color:var(--ink-soft);font-weight:500}
-  .ai-mock{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:17px 18px 16px;box-shadow:var(--shadow)}
-  .ai-head{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:700;color:var(--rust);letter-spacing:.04em;margin-bottom:13px}
-  .ai-spark{font-size:14px}
-  .ai-line{height:9px;border-radius:5px;background:var(--line-soft);margin-bottom:8px}
-  .ai-line.w1{width:100%}.ai-line.w2{width:88%}.ai-line.w3{width:60%}
-  .ai-src-label{font-size:11px;font-weight:700;color:var(--ink-faint);letter-spacing:.04em;margin:15px 0 9px}
-  .ai-srcs{display:flex;flex-wrap:wrap;gap:7px}
-  .ai-chip{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;padding:5px 11px;border-radius:20px;border:1px solid var(--line);background:var(--paper-2);color:var(--ink-faint)}
-  .ai-chip.on{background:var(--rust);color:#fff;border-color:var(--rust);box-shadow:0 4px 12px rgba(190,79,54,.25)}
-  .ai-chip .cdot{width:11px;height:11px;border-radius:50%;background:currentColor;opacity:.45}
-  .ai-chip.on .cdot{opacity:1}
-  .mock-cap{font-size:11px;color:var(--ink-faint);text-align:center;font-style:italic;margin-top:3px}
+/* ── TABLE ── */
+.tbl { width:100%; border-collapse:collapse; font-size:14px; margin-bottom:24px; }
+.tbl thead th {
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px; font-weight:500;
+  letter-spacing:1.5px; text-transform:uppercase;
+  color:var(--ink-faint); text-align:left;
+  padding:8px 10px; border-bottom:2px solid var(--line);
+}
+.tbl td {
+  padding:9px 10px; border-bottom:1px solid var(--line);
+  vertical-align:middle;
+}
+.tbl tr:last-child td { border-bottom:none; }
+.tbl a {
+  color:var(--ink); text-decoration:none;
+  border-bottom:1px dotted var(--line-dark);
+  transition:all 0.2s;
+}
+.tbl a:hover { color:var(--coral); border-color:var(--coral); }
 
-  /* TOOLKIT */
-  .toolset{display:flex;flex-direction:column;gap:18px}
-  .toolrow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
-  .toolrow .tlabel{font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint);width:150px;flex-shrink:0}
-  @media(max-width:600px){.toolrow .tlabel{width:100%}}
-  .tool{font-size:14px;font-weight:600;color:var(--ink-soft);padding:8px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);transition:transform .2s,border-color .2s,color .2s}
-  .tool:hover{border-color:var(--rust);color:var(--rust);transform:translateY(-2px)}
-  .shot-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:40px 28px;text-align:center;color:var(--ink-faint);font-size:13px;line-height:1.5}
-  .shot-empty .ic{font-size:30px;opacity:.6}
-  .shot-empty code{background:var(--card);border:1px solid var(--line);padding:3px 8px;border-radius:5px;font-size:11.5px;color:var(--rust-deep);font-family:ui-monospace,monospace}
+.badge {
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px; font-weight:600;
+  padding:3px 9px; border-radius:6px;
+  display:inline-block;
+}
+.badge-1 { background:#D1FAE5; color:#065F46; }
+.badge-3 { background:#DBEAFE; color:#1E40AF; }
+.badge-10 { background:#FEF3C7; color:#92400E; }
+.badge-ai { background:#EDE9FE; color:#6D28D9; }
 
-  /* RANGE GRID */
-  .range{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-  @media(max-width:900px){.range{grid-template-columns:repeat(2,1fr)}}
-  @media(max-width:480px){.range{grid-template-columns:1fr}}
-  .rcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 20px;transition:transform .25s,border-color .25s}
-  .rcard:hover{transform:translateY(-3px);border-color:var(--rust)}
-  .rcard .ic{font-size:22px;margin-bottom:12px}
-  .rcard h4{font-size:16px;font-weight:600;margin-bottom:6px}
-  .rcard p{font-size:13.5px;color:var(--ink-faint);line-height:1.5}
+.mono { font-family:'IBM Plex Mono',monospace; font-weight:500; }
 
-  /* two-col blocks */
-  .twocol{display:grid;grid-template-columns:1fr 1fr;gap:50px}
-  @media(max-width:820px){.twocol{grid-template-columns:1fr;gap:34px}}
-  .block h3{font-size:24px;font-weight:600;margin-bottom:14px;letter-spacing:-.01em}
-  .block p{font-size:16px;color:var(--ink-soft);margin-bottom:14px}
-  .block p b{color:var(--ink);font-weight:600}
-  .tick{list-style:none}
-  .tick li{position:relative;padding-left:24px;margin-bottom:11px;font-size:15.5px;color:var(--ink-soft)}
-  .tick li::before{content:'';position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--rust)}
-  .tick li b{color:var(--ink);font-weight:600}
+/* ── SERP MOCKUP ── */
+.serp {
+  background:var(--white);
+  border:1px solid #DFE1E5;
+  border-radius:12px;
+  padding:20px 24px;
+  margin-bottom:20px;
+  position:relative;
+}
+.serp-bar {
+  display:flex; align-items:center; gap:8px;
+  border:1px solid #DFE1E5;
+  border-radius:24px;
+  padding:8px 16px; margin-bottom:16px;
+  box-shadow:0 1px 4px rgba(0,0,0,0.08);
+}
+.serp-bar span { font-size:14px; color:#202124; }
+.serp-hit { padding:10px 0; }
+.serp-hit.active {
+  background:linear-gradient(90deg,var(--sage-light) 0%,transparent 100%);
+  margin:0 -24px; padding:12px 24px;
+  border-left:3px solid var(--sage);
+  border-radius:0 8px 8px 0;
+}
+.serp-url { font-size:12px; color:#4D5156; margin-bottom:1px; }
+.serp-url .dot { display:inline-block; width:16px; height:16px; border-radius:50%; font-size:9px; color:white; font-weight:700; text-align:center; line-height:16px; margin-right:5px; vertical-align:middle; }
+.serp-title { font-size:17px; color:#1A0DAB; margin-bottom:2px; }
+.serp-desc { font-size:13px; color:#4D5156; line-height:1.5; }
+.serp-badge-inline {
+  font-family:'IBM Plex Mono',monospace;
+  font-size:9px; font-weight:700; letter-spacing:0.5px;
+  text-transform:uppercase;
+  background:#D1FAE5; color:#065F46;
+  padding:2px 8px; border-radius:100px;
+  margin-left:6px; vertical-align:middle;
+}
+.serp-faded .serp-title { font-size:14px; color:#9AA0A6; }
+.serp-faded .serp-url { color:#BDC1C6; }
 
-  /* CLIENTS */
-  .clients{display:flex;flex-wrap:wrap;gap:12px}
-  .clogo{font-family:'Fraunces',serif;font-weight:500;font-size:17px;color:var(--ink-soft);padding:10px 20px;border:1px solid var(--line);border-radius:8px;background:var(--card);transition:all .25s}
-  .clogo:hover{color:var(--rust);border-color:var(--rust);transform:translateY(-2px)}
+/* ── AI OVERVIEW ── */
+.ai-box {
+  background:linear-gradient(135deg,#F5F0FF 0%,#EFF6FF 50%,#F5F0FF 100%);
+  border:1px solid #D4C5F9;
+  border-radius:12px;
+  padding:20px; margin-bottom:20px;
+}
+.ai-head { display:flex; align-items:center; gap:6px; margin-bottom:10px; font-size:13px; color:#5F6368; font-weight:500; }
+.ai-text { font-size:13px; color:#3C4043; line-height:1.6; margin-bottom:12px; }
+.ai-chips { display:flex; gap:6px; flex-wrap:wrap; }
+.ai-chip {
+  font-size:11px; color:#5F6368;
+  background:white; border:1px solid #D4C5F9;
+  padding:5px 10px; border-radius:8px;
+  display:inline-flex; align-items:center; gap:4px;
+}
+.ai-chip.hl { border-color:var(--sage); background:var(--sage-light); color:var(--sage); font-weight:600; }
+.ai-chip .cd { display:inline-block; width:12px; height:12px; border-radius:50%; font-size:7px; color:white; font-weight:700; text-align:center; line-height:12px; }
 
-  /* ABOUT */
-  .about-card{background:var(--ink);color:var(--paper);border-radius:20px;padding:54px 50px;position:relative;overflow:hidden}
-  .about-card::before{content:'';position:absolute;top:-60px;right:-40px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,rgba(190,79,54,.4),transparent 70%)}
-  .about-card .sec-kicker{color:#D9A38F}
-  .about-card h2{color:var(--paper);font-size:clamp(28px,4vw,40px);margin-bottom:20px;position:relative}
-  .about-card p{color:rgba(246,240,230,.82);font-size:17px;max-width:660px;margin-bottom:16px;position:relative}
-  .about-card p b{color:#fff}
+/* ── TRAFFIC DASHBOARD ── */
+.dash {
+  background:var(--cream); border:1px solid var(--line);
+  border-radius:12px; padding:20px 24px;
+  margin-bottom:20px;
+}
+.dash-head { font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-faint); letter-spacing:1px; margin-bottom:12px; }
+.dash-row { display:flex; align-items:center; gap:12px; padding:8px 0; border-bottom:1px solid var(--line); }
+.dash-row:last-child { border-bottom:none; }
+.dash-row.hl { background:linear-gradient(90deg,var(--sage-light) 0%,transparent 100%); margin:0 -12px; padding:8px 12px; border-radius:6px; font-weight:600; }
+.dash-pos { font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-faint); width:24px; text-align:center; }
+.dash-row.hl .dash-pos { color:var(--sage); }
+.dash-name { flex:1; font-size:13px; }
+.dash-num { font-family:'IBM Plex Mono',monospace; font-size:13px; font-weight:500; color:var(--ink-light); width:60px; text-align:right; }
+.dash-row.hl .dash-num { color:var(--sage); }
 
-  /* CONTACT */
-  .contact{text-align:center;padding:90px 0}
-  .contact h2{font-size:clamp(34px,5vw,56px);font-weight:400;letter-spacing:-.02em;margin-bottom:10px}
-  .contact .serif-it{color:var(--rust)}
-  .contact p{font-size:18px;color:var(--ink-soft);margin-bottom:30px}
-  .contact-links{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+/* ── PULL QUOTE ── */
+.pullquote {
+  border-left:3px solid var(--coral);
+  padding:16px 20px;
+  margin:24px 0;
+  background:var(--coral-light);
+  border-radius:0 10px 10px 0;
+  font-family:'Libre Baskerville',serif;
+  font-size:14px; font-style:italic;
+  color:var(--ink-light); line-height:1.7;
+}
 
-  footer{border-top:1px solid var(--line);padding:30px 0;text-align:center;font-size:13px;color:var(--ink-faint)}
+/* ── MORE RESULTS ── */
+.mini-case {
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  padding:24px 28px;
+  margin-bottom:20px;
+  box-shadow:var(--shadow-sm);
+}
+
+/* ── ABOUT ── */
+.about-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:48px; align-items:start;
+}
+.about-grid p { font-size:15px; color:var(--ink-light); margin-bottom:14px; font-weight:300; line-height:1.8; }
+.about-note {
+  font-size:13px; font-style:italic;
+  color:var(--ink-faint); margin-top:20px;
+  padding:14px 16px;
+  background:var(--cream); border-radius:10px;
+  border:1px solid var(--line);
+  line-height:1.7;
+}
+.about-h4 {
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px; font-weight:500;
+  letter-spacing:2px; text-transform:uppercase;
+  color:var(--ink-faint); margin-bottom:8px; margin-top:24px;
+}
+.about-h4:first-child { margin-top:0; }
+.skill-row { display:flex; flex-wrap:wrap; gap:6px; margin-top:16px; }
+.skill { font-size:12px; font-weight:500; padding:5px 12px; border-radius:100px; border:1px solid var(--line); color:var(--ink-light); background:var(--white); }
+
+/* ── ABOUT PHOTO ── */
+.about-photo {
+  width:160px; height:160px;
+  border-radius:50%;
+  object-fit:cover;
+  object-position:center top;
+  border:3px solid var(--line);
+  box-shadow:var(--shadow-md);
+  margin-bottom:28px;
+}
+
+/* ── FOOTER ── */
+footer { text-align:center; padding:36px 0; border-top:1px solid var(--line); font-size:13px; color:var(--ink-faint); }
+
+/* ── RESPONSIVE ── */
+@media(max-width:640px){
+  .case-top,.case-body{padding:20px 22px;}
+  .metrics{grid-template-columns:1fr;}
+  .about-grid{grid-template-columns:1fr;gap:28px;}
+  .serp-hit.active{margin:0 -16px;padding:10px 16px;}
+  [style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr!important;}
+}
+
+/* ── ANIMATION ── */
+@keyframes rise{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+.case{animation:rise 0.5s ease both;}
+.case:nth-child(2){animation-delay:0.12s;}
+.case:nth-child(3){animation-delay:0.24s;}
+.lang-switch { position:fixed; top:20px; right:20px; z-index:100; }
+.lang-switch a { font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:500; text-decoration:none; padding:6px 14px; border-radius:100px; border:1px solid var(--line); background:var(--white); color:var(--ink-light); box-shadow:var(--shadow-sm); transition:all 0.2s; }
+.lang-switch a:hover { border-color:var(--coral); color:var(--coral); }
 </style>
 </head>
 <body>
 
-<nav>
-  <div class="nav-in">
-    <div class="nav-name">Mónica Gómez <span>Vesga</span></div>
-    <div class="nav-links">
-      <a href="#work">Work</a>
-      <a href="#range">What I do</a>
-      <a href="#tools">Tools</a>
-      <a href="#ai">AI workflow</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-</nav>
+<div class="lang-switch"><a href="en.html">EN 🇬🇧</a></div>
 
-<header>
-  <div class="wrap">
-    <div class="eyebrow rev">Bilingual writer &amp; editor (EN/ES) · SEO + AI search · Spain &amp; LATAM</div>
-    <h1 class="hero-h rev">I write content<br>that gets <span class="serif-it accent">cited.</span></h1>
-    <p class="hero-p rev">Hey there! I'm Mónica, a bilingual writer and editor, SEO nerd since 2019. I write content that <b>ranks on Google and gets picked up by LLMs</b>, without sounding like a robot. Because here's the thing about this new AI-search era: the kick is being human. I write for Spain and LATAM audiences, in the kind of prose that search engines and LLMs actually want to cite. And yes, an actual human wrote this bio.</p>
-    <div class="pills rev">
-      <span class="pill">SEO</span>
-      <span class="pill">AEO / GEO</span>
-      <span class="pill">Landing pages</span>
-      <span class="pill">Technical &amp; editorial</span>
-      <span class="pill">Email &amp; social</span>
-      <span class="pill">Localization ES/LATAM</span>
-      <span class="pill">AI-augmented workflow</span>
-    </div>
-    <div class="cta-row rev">
-      <a class="btn btn-primary" href="#work">See my work →</a>
-      <a class="btn btn-ghost" href="https://www.linkedin.com/in/monicagomezvesga/" target="_blank">LinkedIn</a>
-    </div>
-
-    <div class="profiles rev">
-      <div class="prof here">
-        <span class="pf-flag">EN · here</span>
-        <div>
-          <div class="pf-t">SEO + AI content (EN)</div>
-          <div class="pf-d">SEO writing &amp; editing, AEO/GEO, support &amp; onboarding content, AI-augmented workflows.</div>
-        </div>
-      </div>
-      <a class="prof link" href="seo-portfolio/en.html">
-        <span class="pf-flag">ES / EN →</span>
-        <div>
-          <div class="pf-t">SEO writing portfolio</div>
-          <div class="pf-d">My in-depth, visual portfolio for SEO &amp; copywriting roles, in both languages.</div>
-        </div>
-      </a>
-    </div>
-  </div>
-</header>
-
-<div class="stats">
-  <div class="stats-in">
-    <div class="stat rev"><div class="stat-n" data-count="8" data-suffix="">0</div><div class="stat-l">Years in content</div></div>
-    <div class="stat rev"><div class="stat-n" data-count="7" data-suffix="">0</div><div class="stat-l">Landings on page 1 of Google</div></div>
-    <div class="stat rev"><div class="stat-n" data-count="14" data-suffix="">0</div><div class="stat-l">Brands &amp; clients</div></div>
-    <div class="stat rev"><div class="stat-n" data-count="30" data-suffix="M+">0</div><div class="stat-l">Readers reached (Blinkist)</div></div>
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+<div class="wrap">
+  <p class="hero-eyebrow">📍 Barcelona</p>
+  <h1>Mónica Gómez Vesga<span>Content Manager & Redactora SEO</span></h1>
+  <p class="hero-text">Gestiono el proceso completo de contenidos: desde la estrategia y la coordinación de redactores hasta la redacción SEO, el control de calidad y la localización para distintos mercados. Todo pensado para que las marcas aparezcan en Google y en las respuestas de los LLMs.</p>
+  <div class="pill-row">
+    <span class="pill-label">He trabajado con</span>
+    <span class="pill">Rosa Clará</span>
+    <span class="pill">Allianz</span>
+    <span class="pill">SABA</span>
+    <span class="pill">Tous</span>
+    <span class="pill">Clarel</span>
+    <span class="pill">Blinkist</span>
   </div>
 </div>
+</section>
 
-<section id="work">
-  <div class="wrap">
-    <div class="sec-head rev">
-      <div class="sec-kicker">Selected work</div>
-      <h2 class="sec-h">Results you can click on.</h2>
-      <p class="sec-intro">Verifiable results, links included. For the full SEO deep-dive, see my <a href="seo-portfolio/en.html" style="color:var(--rust);border-bottom:1px solid var(--rust)">SEO writing portfolio</a>.</p>
+<div class="divider"></div>
+
+<!-- ═══ CASES ═══ -->
+<section class="section" id="casos">
+<div class="wrap">
+  <p class="section-eyebrow">Casos de estudio</p>
+  <h2 class="section-title">Resultados verificables</h2>
+  <p class="section-sub">Contenidos que he escrito y que siguen posicionados en los primeros resultados de Google.</p>
+
+  <!-- CASO 1: ROSA CLARÁ -->
+  <div class="case">
+    <div class="case-top">
+      <h3 class="case-brand">Rosa Clará</h3>
+      <span class="case-tag">9 landings · SEO on-page</span>
     </div>
+    <div class="case-body">
+      <p class="case-label">El reto</p>
+      <p>Las categorías de producto de Rosa Clará necesitaban contenido optimizado para competir en Google contra Pronovias, St. Patrick, Aire Barcelona y Nicole Milano, las marcas más fuertes del sector nupcial en España.</p>
 
-    <div class="filter rev">
-      <button class="fbtn active" data-filter="all">All</button>
-      <button class="fbtn" data-filter="aeo">AEO / GEO</button>
-      <button class="fbtn" data-filter="seo">SEO</button>
-      <button class="fbtn" data-filter="editorial">Editorial</button>
+      <p class="case-label">Mi rol</p>
+      <p>Redacción e implementación del contenido SEO de 9 landings de categoría, en colaboración con el equipo SEO inhouse (quienes diseñaron la estrategia y definieron las keywords). Mi trabajo fue analizar competidores en SERPs, redactar contenido orientado a intención de búsqueda, optimizar la estructura on-page (H1–H3) e integrar contenido informativo dentro de páginas transaccionales.</p>
+
+      <p class="case-label">Resultados</p>
+      <div class="metrics">
+        <div class="metric green"><div class="metric-num">3</div><div class="metric-label">keywords en posición #1 de Google</div></div>
+        <div class="metric blue"><div class="metric-num">7 de 9</div><div class="metric-label">landings en 1ª página de Google</div></div>
+        <div class="metric coral"><div class="metric-num">#3</div><div class="metric-label">"vestidos de novia" (keyword head)</div></div>
+      </div>
+
+      <p class="case-label">Posiciones verificadas · Google, marzo 2026</p>
+      <table class="tbl">
+        <thead><tr><th>Keyword</th><th>Pos.</th><th>Compitiendo con</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia/vestidos-novia-pedreria" target="_blank">V. novia con pedrería</a></td><td><span class="badge badge-1">#1</span></td><td style="font-size:12px;color:var(--ink-faint);">Pronovias, Araya, Aire BCN</td></tr>
+          <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia/vestidos-novia-elegantes" target="_blank">V. novia elegantes</a></td><td><span class="badge badge-1">#1</span></td><td style="font-size:12px;color:var(--ink-faint);">Pronovias, S. Navarro</td></tr>
+          <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia/vestidos-novia-modernos" target="_blank">V. novia modernos</a></td><td><span class="badge badge-1">#1</span></td><td style="font-size:12px;color:var(--ink-faint);">House of St. Patrick</td></tr>
+          <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia" target="_blank">Vestidos de novia</a></td><td><span class="badge badge-3">#3</span></td><td style="font-size:12px;color:var(--ink-faint);">KW head, altísima competencia</td></tr>
+          <tr><td>V. novia corte princesa</td><td><span class="badge badge-3">#3</span></td><td style="font-size:12px;color:var(--ink-faint);">St. Patrick, Pronovias</td></tr>
+          <tr><td>V. novia sencillos</td><td><span class="badge badge-3">#3</span></td><td style="font-size:12px;color:var(--ink-faint);">Mimetik, Coquette Bon Chic</td></tr>
+          <tr><td>Vestidos para madrina</td><td><span class="badge badge-3">#3</span></td><td style="font-size:12px;color:var(--ink-faint);">S. Navarro, Matilde Cano</td></tr>
+          <tr><td>Vestidos de invitada</td><td><span class="badge badge-10">#5</span></td><td style="font-size:12px;color:var(--ink-faint);">1ª página, KW muy competida</td></tr>
+          <tr><td style="color:var(--ink-faint);">V. novia románticos</td><td colspan="2" style="font-size:12px;color:var(--ink-faint);">Indexada · cluster semántico</td></tr>
+        </tbody>
+      </table>
+
+      <p class="case-label">Tráfico orgánico de las landings que redacté · SEMrush</p>
+      <div class="dash">
+        <div class="dash-head">Visitas mensuales desde Google por landing</div>
+        <div class="dash-row hl"><span class="dash-pos">✍️</span><span class="dash-name">Vestidos de novia</span><span class="dash-num">21.1K</span></div>
+        <div class="dash-row hl"><span class="dash-pos">✍️</span><span class="dash-name">Vestidos para madrina</span><span class="dash-num">19.9K</span></div>
+        <div class="dash-row hl"><span class="dash-pos">✍️</span><span class="dash-name">Vestidos de invitada</span><span class="dash-num">12.1K</span></div>
+        <div class="dash-row"><span class="dash-pos">✍️</span><span class="dash-name">V. novia sencillos</span><span class="dash-num">2.4K</span></div>
+        <div class="dash-row"><span class="dash-pos"></span><span class="dash-name" style="color:var(--ink-faint);">+ 5 landings long-tail (cluster semántico)</span><span class="dash-num"></span></div>
+      </div>
+
+      <div class="pullquote">9 landings redactadas. 7 en primera página de Google. 3 en posición #1, compitiendo directamente con Pronovias, Aire Barcelona y St. Patrick. La landing principal recibe +21K visitas orgánicas al mes.</div>
     </div>
+  </div>
 
-    <div class="cases">
+  <!-- CASO 2: SABA -->
+  <div class="case">
+    <div class="case-top">
+      <h3 class="case-brand">SABA Parkings</h3>
+      <span class="case-tag">6 landings · SEO local</span>
+    </div>
+    <div class="case-body">
+      <p class="case-label">El reto</p>
+      <p>SABA necesitaba posicionar sus páginas de parking por ciudad para captar búsquedas locales de alta intención comercial en las principales ciudades de España.</p>
 
-      <!-- ALLIANZ -->
-      <article class="case rev" data-cat="aeo">
-        <div class="case-grid">
-          <div class="case-body">
-            <span class="case-tag">AEO / GEO · AI Search</span>
-            <h3 class="case-h">Content Google's AI cites</h3>
-            <div class="case-client">Allianz Spain · finance &amp; insurance blog</div>
-            <p class="case-txt">Ranking #1 matters less every month, because more searches get answered inside Google's AI Overview first. The real test is whether the AI judges your content good enough to <b>cite</b>. My Allianz articles have earned both AI Overview citations and #1 organic positions. (AI citations rotate month to month, so the exact mix shifts over time.)</p>
-            <div class="case-label">Live, verifiable (June 2026)</div>
-            <table>
-              <tr>
-                <td><a href="https://www.allianz.es/blog/motor/pasar-itv.html" target="_blank">por qué mi coche no pasa la ITV</a></td>
-                <td><span class="badge b-ai">AI Overview</span></td>
-                <td class="td-comp">cited by Google's AI + top organic</td>
-              </tr>
-              <tr>
-                <td><a href="https://www.allianz.es/blog/ahorro/renta-vitalicia-inmobiliaria.html" target="_blank">renta vitalicia inmobiliaria</a></td>
-                <td><span class="badge b1">#1</span></td>
-                <td class="td-comp">above Óptima Mayores</td>
-              </tr>
-            </table>
-            <p style="font-size:12.5px;color:var(--ink-faint);margin-top:14px">The panel shows the ITV article cited in Google's AI Overview <i>and</i> ranking as the top organic result for the same query. Follow the link to verify it live.</p>
-          </div>
-          <div class="case-shot">
-            <div class="mock">
-              <div class="mock-bar"><span class="mock-q">por qué mi coche no pasa la ITV</span><span class="mg">⌕</span></div>
-              <div class="ai-mock">
-                <div class="ai-head"><span class="ai-spark">✦</span> AI OVERVIEW</div>
-                <div class="ai-line w1"></div><div class="ai-line w2"></div><div class="ai-line w3"></div>
-                <div class="ai-src-label">SOURCES</div>
-                <div class="ai-srcs">
-                  <span class="ai-chip"><span class="cdot"></span>Cerquoitv</span>
-                  <span class="ai-chip"><span class="cdot"></span>TÜV SÜD</span>
-                  <span class="ai-chip on"><span class="cdot"></span>Allianz</span>
-                </div>
-              </div>
-              <div class="serp-row top">
-                <div class="serp-meta"><span class="serp-fav">A</span> allianz.es › Blog › Motor <span class="serp-rank badge b1">#1</span></div>
-                <div class="serp-title">ITV desfavorable: 5 causas más comunes</div>
-              </div>
-              <div class="mock-cap">Cited in Google's AI Overview + top organic result</div>
-            </div>
+      <p class="case-label">Mi rol</p>
+      <p>Redacción y optimización de 6 landings de ciudad + landing general de España. Contenido orientado a búsqueda local, estructura SEO on-page y alineación con la estrategia de posicionamiento geográfico.</p>
+
+      <p class="case-label">Resultados</p>
+      <div class="metrics">
+        <div class="metric green"><div class="metric-num">3</div><div class="metric-label">ciudades en posición #1 de Google</div></div>
+        <div class="metric blue"><div class="metric-num">6</div><div class="metric-label">landings de ciudad optimizadas</div></div>
+        <div class="metric coral"><div class="metric-num">Pág. 1</div><div class="metric-label">"parkings España" (general)</div></div>
+      </div>
+
+      <table class="tbl">
+        <thead><tr><th>Keyword</th><th>Posición</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://www.saba.es/es/parking-barcelona" target="_blank">parkings Barcelona</a></td><td><span class="badge badge-1">#1</span></td></tr>
+          <tr><td><a href="https://www.saba.es/es/parking-madrid" target="_blank">parkings Madrid</a></td><td><span class="badge badge-1">#1</span></td></tr>
+          <tr><td><a href="https://www.saba.es/es/parking-sevilla" target="_blank">parkings Sevilla</a></td><td><span class="badge badge-1">#1</span></td></tr>
+          <tr><td><a href="https://www.saba.es/es/" target="_blank">parkings España</a></td><td><span class="badge badge-3">Pág. 1</span></td></tr>
+          <tr><td>parkings A Coruña</td><td><span class="badge badge-10">Pág. 1</span></td></tr>
+          <tr><td>parkings Vigo</td><td><span class="badge badge-10">Indexada</span></td></tr>
+        </tbody>
+      </table>
+
+      <div class="pullquote">Las 3 ciudades principales de SABA (Barcelona, Madrid, Sevilla) ocupan el primer resultado orgánico de Google para sus keywords de parking.</div>
+    </div>
+  </div>
+
+  <!-- CASO 3: ALLIANZ -->
+  <div class="case">
+    <div class="case-top">
+      <h3 class="case-brand">Allianz España</h3>
+      <span class="case-tag">Blog SEO · Finanzas + Motor</span>
+    </div>
+    <div class="case-body">
+      <p class="case-label">El reto</p>
+      <p>Allianz necesitaba contenido informacional para su blog que compitiera con medios especializados y empresas del sector en queries de alto valor, tanto en finanzas como en motor.</p>
+
+      <p class="case-label">Mi rol</p>
+      <p>Redacción de artículos SEO en múltiples verticales para el blog corporativo de Allianz España. Mi trabajo fue investigar la competencia, analizar la intención de búsqueda y optimizar la estructura on-page para featured snippets y para la IA generativa de Google. Artículos publicados en 2022, todos activos en 2026 (+3 años).</p>
+
+      <p class="case-label">Resultados</p>
+      <div class="metrics">
+        <div class="metric green"><div class="metric-num">#1</div><div class="metric-label">"renta vitalicia inmobiliaria"</div></div>
+        <div class="metric blue"><div class="metric-num">2</div><div class="metric-label">artículos citados por la IA de Google</div></div>
+        <div class="metric coral"><div class="metric-num">+3 años</div><div class="metric-label">activos (publicados en 2022)</div></div>
+      </div>
+
+      <p class="case-label">Artículo 1 · #1 en Google</p>
+      <div class="serp">
+        <div class="serp-bar"><span>🔍</span><span>renta vitalicia inmobiliaria</span></div>
+        <div class="serp-hit active">
+          <div class="serp-url"><span class="dot" style="background:#003781;">A</span>allianz.es › blog › ahorro<span class="serp-badge-inline">↑ #1</span></div>
+          <div class="serp-title">Renta Vitalicia Inmobiliaria: ¿qué es y cómo funciona?</div>
+          <div class="serp-desc">La renta vitalicia inmobiliaria es un contrato formalizado ante notario...</div>
+        </div>
+        <div class="serp-hit serp-faded">
+          <div class="serp-url"><span class="dot" style="background:#aaa;">M</span>aunmasvida.es</div>
+          <div class="serp-title">Renta Vitalicia Inmobiliaria - Mas Vida</div>
+        </div>
+        <div class="serp-hit serp-faded">
+          <div class="serp-url"><span class="dot" style="background:#aaa;">D</span>donpiso.com</div>
+          <div class="serp-title">Renta vitalicia inmobiliaria | Donpiso</div>
+        </div>
+      </div>
+
+      <p class="case-label">Artículos 2 y 3 · Citados en AI Overview</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px;">
+        <div class="ai-box">
+          <div class="ai-head">✨ Vista creada con IA</div>
+          <div class="ai-text">🔍 <em>"errores planificación jubilación"</em></div>
+          <div class="ai-chips">
+            <span class="ai-chip"><span class="cd" style="background:#4285F4;">B</span>Bankinter</span>
+            <span class="ai-chip hl"><span class="cd" style="background:var(--sage);">A</span>Allianz ✍️</span>
+            <span class="ai-chip"><span class="cd" style="background:#4285F4;">S</span>SyPpT</span>
           </div>
         </div>
-      </article>
-
-      <!-- ROSA CLARA -->
-      <article class="case rev" data-cat="seo">
-        <div class="case-grid">
-          <div class="case-body">
-            <span class="case-tag sage">SEO · Category landings</span>
-            <h3 class="case-h">9 landings written. 7 on page 1.</h3>
-            <div class="case-client">Rosa Clará · premium bridal &amp; occasion wear</div>
-            <p class="case-txt">I wrote the on-page copy for nine strategic category landings (strategy led by the in-house SEO team). I mapped each to search intent and built the semantic cluster. <b>Seven landed on the first page of Google</b>, three of them now sit among the highest-traffic pages on the entire site.</p>
-            <div class="case-label">Rankings (selected)</div>
-            <table>
-              <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia/vestidos-novia-pedreria" target="_blank">V. novia con pedrería</a></td><td><span class="badge b1">#1</span></td><td class="td-comp">Pronovias, Araya, Aire BCN</td></tr>
-              <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia/vestidos-novia-elegantes" target="_blank">V. novia elegantes</a></td><td><span class="badge b1">#1</span></td><td class="td-comp">Pronovias, S. Navarro</td></tr>
-              <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia/vestidos-novia-modernos" target="_blank">V. novia modernos</a></td><td><span class="badge b1">#1</span></td><td class="td-comp">House of St. Patrick</td></tr>
-              <tr><td><a href="https://www.rosaclara.es/es/vestidos-de-novia" target="_blank">Vestidos de novia</a></td><td><span class="badge b3">#3</span></td><td class="td-comp">head keyword, top competition</td></tr>
-            </table>
-            <div class="case-label">Monthly organic traffic to landings I wrote (SEMrush)</div>
-            <div class="dash">
-              <div class="drow"><span class="dname">Vestidos de novia</span><span class="dbar"><i data-w="100"></i></span><span class="dnum">21K</span></div>
-              <div class="drow"><span class="dname">Vestidos para madrina</span><span class="dbar"><i data-w="94"></i></span><span class="dnum">20K</span></div>
-              <div class="drow"><span class="dname">Vestidos de invitada</span><span class="dbar"><i data-w="57"></i></span><span class="dnum">12K</span></div>
-              <div class="drow"><span class="dname">V. novia sencillos</span><span class="dbar"><i data-w="12"></i></span><span class="dnum">2.4K</span></div>
-            </div>
-          </div>
-          <div class="case-shot">
-            <div class="mock">
-              <div class="mock-bar"><span class="mock-q">vestidos de novia con pedrería</span><span class="mg">⌕</span></div>
-              <div class="serp-row top">
-                <div class="serp-meta"><span class="serp-fav">R</span> rosaclara.es › vestidos-de-novia <span class="serp-rank badge b1">#1</span></div>
-                <div class="serp-title">Vestidos de novia con pedrería | Rosa Clará</div>
-              </div>
-              <div class="serp-row dim">
-                <div class="serp-meta"><span class="serp-fav g">P</span> pronovias.com</div>
-                <div class="serp-title">Vestidos de novia con pedrería</div>
-              </div>
-              <div class="serp-row dim">
-                <div class="serp-meta"><span class="serp-fav g">A</span> airebarcelona.com</div>
-                <div class="serp-title">Colección de novias bordadas</div>
-              </div>
-              <div class="mock-cap">#1 above Pronovias &amp; Aire Barcelona</div>
-            </div>
+        <div class="ai-box">
+          <div class="ai-head">✨ Vista creada con IA</div>
+          <div class="ai-text">🔍 <em>"por qué mi coche no pasa la itv"</em></div>
+          <div class="ai-chips">
+            <span class="ai-chip"><span class="cd" style="background:#4285F4;">C</span>Cerquoitv</span>
+            <span class="ai-chip hl"><span class="cd" style="background:var(--sage);">A</span>Allianz ✍️</span>
+            <span class="ai-chip"><span class="cd" style="background:#4285F4;">H</span>Helvetia</span>
           </div>
         </div>
-      </article>
-
-      <!-- SABA -->
-      <article class="case rev" data-cat="seo">
-        <div class="case-grid">
-          <div class="case-body">
-            <span class="case-tag sage">SEO · Local search</span>
-            <h3 class="case-h">#1 for the cities that matter</h3>
-            <div class="case-client">SABA · parking infrastructure</div>
-            <p class="case-txt">Landing-page content built around city-level search demand, owning the highest-volume parking queries in Spain's biggest markets.</p>
-            <div class="case-label">City rankings</div>
-            <table>
-              <tr><td><a href="https://www.saba.es/es/parking-barcelona" target="_blank">parkings Barcelona</a></td><td><span class="badge b1">#1</span></td></tr>
-              <tr><td><a href="https://www.saba.es/es/parking-madrid" target="_blank">parkings Madrid</a></td><td><span class="badge b1">#1</span></td></tr>
-              <tr><td><a href="https://www.saba.es/es/parking-sevilla" target="_blank">parkings Sevilla</a></td><td><span class="badge b1">#1</span></td></tr>
-              <tr><td>parkings España</td><td><span class="badge b3">Pg.1</span></td></tr>
-              <tr><td>parkings A Coruña</td><td><span class="badge b3">Pg.1</span></td></tr>
-            </table>
-          </div>
-          <div class="case-shot">
-            <div class="mock">
-              <div class="mock-bar"><span class="mock-q">parkings Barcelona</span><span class="mg">⌕</span></div>
-              <div class="serp-row top">
-                <div class="serp-meta"><span class="serp-fav">S</span> saba.es › parking-barcelona <span class="serp-rank badge b1">#1</span></div>
-                <div class="serp-title">Parkings en Barcelona | SABA</div>
-              </div>
-              <div class="serp-row dim">
-                <div class="serp-meta"><span class="serp-fav g">P</span> parkimeter.com</div>
-                <div class="serp-title">Aparcamiento en Barcelona</div>
-              </div>
-              <div class="serp-row dim">
-                <div class="serp-meta"><span class="serp-fav g">E</span> elparking.com</div>
-                <div class="serp-title">Parkings baratos en Barcelona</div>
-              </div>
-              <div class="mock-cap">#1 for "parkings Barcelona" and "parkings Madrid"</div>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <!-- INTRACON -->
-      <article class="case rev" data-cat="editorial">
-        <div class="case-grid">
-          <div class="case-body">
-            <span class="case-tag gold">Editorial · Brand content</span>
-            <h3 class="case-h">First page on a competitive B2B topic</h3>
-            <div class="case-client">Intracon · marketing solutions</div>
-            <p class="case-txt">An editorial piece on video branding that reached <b>page 1 of Google</b> for "video branding" and "video branding qué es", outranking specialist players like SHIFTA by Elisava and Streamion. Proof I can win on educational, top-of-funnel B2B content, not just product pages.</p>
-            <a class="btn btn-ghost" style="margin-top:8px" href="https://www.intraconmarketingsolutions.com/insights/video-branding-como-trabajar-tu-marca-a-traves-de-videos/" target="_blank">Read the article →</a>
-          </div>
-          <div class="case-shot">
-            <div class="mock">
-              <div class="mock-bar"><span class="mock-q">video branding qué es</span><span class="mg">⌕</span></div>
-              <div class="serp-row top">
-                <div class="serp-meta"><span class="serp-fav" style="background:var(--gold)">I</span> intraconmarketingsolutions.com <span class="serp-rank badge b3">Pg.1</span></div>
-                <div class="serp-title">Video branding: cómo trabajar tu marca a través de vídeos</div>
-              </div>
-              <div class="serp-row dim">
-                <div class="serp-meta"><span class="serp-fav g">S</span> shifta.elisava.net</div>
-                <div class="serp-title">Qué es el video branding</div>
-              </div>
-              <div class="serp-row dim">
-                <div class="serp-meta"><span class="serp-fav g">S</span> streamion.es</div>
-                <div class="serp-title">Video branding para marcas</div>
-              </div>
-              <div class="mock-cap">Page 1, above SHIFTA by Elisava &amp; Streamion</div>
-            </div>
-          </div>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<section id="range" style="background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
-  <div class="wrap">
-    <div class="sec-head rev">
-      <div class="sec-kicker">Full range</div>
-      <h2 class="sec-h">One writer, many formats.</h2>
-      <p class="sec-intro">I adapt voice and structure across the whole content surface, from a new customer reading a help doc to a CMO skimming a one-pager.</p>
-    </div>
-    <div class="range">
-      <div class="rcard rev"><div class="ic">📝</div><h4>Blog &amp; editorial</h4><p>SEO articles, thought leadership, top-of-funnel education.</p></div>
-      <div class="rcard rev"><div class="ic">🧩</div><h4>Knowledge base &amp; support</h4><p>Help-center articles, onboarding docs, macros &amp; templates (Zendesk).</p></div>
-      <div class="rcard rev"><div class="ic">🎯</div><h4>Landing pages</h4><p>Conversion copy mapped to search intent and the funnel.</p></div>
-      <div class="rcard rev"><div class="ic">✉️</div><h4>Email sequences</h4><p>Nurture, onboarding and lifecycle flows.</p></div>
-      <div class="rcard rev"><div class="ic">🎬</div><h4>Video scripts</h4><p>Short-form and explainer scripts.</p></div>
-      <div class="rcard rev"><div class="ic">📣</div><h4>Ad &amp; social copy</h4><p>LinkedIn, X, Reddit, cross-channel creative.</p></div>
-      <div class="rcard rev"><div class="ic">📊</div><h4>Case studies</h4><p>Customer stories and sales collateral.</p></div>
-      <div class="rcard rev"><div class="ic">🌍</div><h4>Localization</h4><p>ES vs. LATAM Spanish, done with real nuance.</p></div>
-    </div>
-  </div>
-</section>
-
-<section id="ai">
-  <div class="wrap">
-    <div class="twocol">
-      <div class="block rev">
-        <div class="sec-kicker">AI-augmented workflow</div>
-        <h3>AI is part of how I work, not a shortcut I hide.</h3>
-        <p>I direct AI, I don't outsource judgment to it. It speeds up the parts that should be fast so I can spend my time on the parts that need a human: voice, accuracy, and what's actually worth a reader's time.</p>
-        <ul class="tick">
-          <li><b>Research &amp; synthesis</b> into structured briefs, fast.</li>
-          <li><b>Drafting scaffolds</b> to kill the blank page and react against.</li>
-          <li><b>Editing &amp; QA</b> as a second set of eyes for tone drift and gaps.</li>
-          <li><b>Localization checks</b> across ES and LATAM phrasing.</li>
-          <li><b>Structuring for AI search</b>: clear answers, FAQs and semantic formats, so content gets surfaced and quoted across search engines and LLMs (see the Allianz case above).</li>
-        </ul>
-        <p style="margin-top:16px;font-size:14px;color:var(--ink-faint)">Tools I use daily: Claude, ChatGPT, NotebookLM. I built a prompt system to keep tone consistent across contributors at Blinkist.</p>
       </div>
-      <div class="block rev">
-        <div class="sec-kicker">Running the engine</div>
-        <h3>I keep production moving so nothing slips.</h3>
-        <p>At Elabs I ran content across <b>10+ simultaneous clients</b>, briefing and editing <b>15+ freelance writers</b> while owning the calendar end to end.</p>
-        <ul class="tick">
-          <li><b>Calendar ownership</b> across every workstream at once.</li>
-          <li><b>Clear briefs</b> so contributors deliver right the first time.</li>
-          <li><b>Editing for consistency</b> across a dozen different hands.</li>
-          <li><b>Customer support &amp; systems</b>: at Ticketdoor I handled support and rebuilt the ticket taxonomy, macros and templates in Zendesk.</li>
-        </ul>
+
+      <table class="tbl">
+        <thead><tr><th>Artículo</th><th>Vertical</th><th>Resultado</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://www.allianz.es/blog/ahorro/renta-vitalicia-inmobiliaria.html" target="_blank">Renta vitalicia inmobiliaria</a></td><td style="font-size:12px;color:var(--ink-faint);">Finanzas</td><td><span class="badge badge-1">#1</span></td></tr>
+          <tr><td><a href="https://www.allianz.es/blog/coberturas/errores-jubilacion.htm" target="_blank">6 errores al planificar la jubilación</a></td><td style="font-size:12px;color:var(--ink-faint);">Finanzas</td><td><span class="badge badge-ai">AI Overview</span></td></tr>
+          <tr><td><a href="https://www.allianz.es/blog/motor/pasar-itv.html" target="_blank">ITV desfavorable: 5 causas</a></td><td style="font-size:12px;color:var(--ink-faint);">Motor</td><td><span class="badge badge-10">#7</span> <span class="badge badge-ai">AI</span></td></tr>
+        </tbody>
+      </table>
+
+      <div class="pullquote">3 artículos de 2022, todos activos en 2026. Uno es #1 superando a empresas especializadas. Dos son citados por la IA de Google como fuente de referencia. Cubren verticales distintas (finanzas y motor), demostrando que la redacción SEO de calidad funciona en cualquier sector.</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══ MORE RESULTS ═══ -->
+<section class="section" id="mas">
+<div class="wrap">
+  <p class="section-eyebrow">Más resultados</p>
+  <h2 class="section-title">Otros clientes y proyectos</h2>
+  <p class="section-sub">Contenidos optimizados para blogs y webs de marcas en distintos sectores.</p>
+
+  <div class="mini-case">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px;">
+      <div>
+        <strong style="font-size:16px;">Intracon Marketing Solutions</strong>
+        <span style="font-size:13px;color:var(--ink-faint);margin-left:8px;">· Blog B2B</span>
+      </div>
+      <span class="badge badge-10">Pág. 1</span>
+    </div>
+    <p style="font-size:14px;color:var(--ink-light);font-weight:300;">Artículo <a href="https://www.intraconmarketingsolutions.com/insights/video-branding-como-trabajar-tu-marca-a-traves-de-videos/" target="_blank">"Video branding: cómo trabajar tu marca a través de vídeos"</a> posicionado en primera página de Google para <strong>"video branding"</strong> y <strong>"video branding qué es"</strong>, compitiendo con SHIFTA by Elisava y productoras especializadas.</p>
+  </div>
+
+  <div style="margin-top:36px;">
+    <p class="case-label">También he creado contenidos optimizados para</p>
+    <div class="pill-row" style="margin-top:12px;">
+      <span class="pill">Tous</span><span class="pill">Clarel</span><span class="pill">Blinkist</span>
+      <span class="pill">CESIF</span><span class="pill">ISEP</span><span class="pill">Implika</span>
+      <span class="pill">Ubicex</span><span class="pill">Foiegood</span><span class="pill">L3tcraft</span><span class="pill">Area</span>
+    </div>
+    <p style="font-size:13px;color:var(--ink-faint);margin-top:10px;">Blogs de marca, landings de venta, optimización web y localización de contenidos ES-LATAM.</p>
+  </div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══ AI & TOOLS ═══ -->
+<section class="section" id="ia" style="background:var(--white);">
+<div class="wrap">
+  <p class="section-eyebrow">IA y herramientas</p>
+  <h2 class="section-title">Cómo integro la IA en mi trabajo</h2>
+  <p class="section-sub">La IA no escribe por mí. Pero me hace mejor en lo que hago.</p>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:32px;">
+    <div style="background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:24px;">
+      <p style="font-size:20px;margin-bottom:10px;">🔍</p>
+      <p style="font-weight:600;font-size:15px;margin-bottom:6px;">Investigación y análisis</p>
+      <p style="font-size:13px;color:var(--ink-light);font-weight:300;line-height:1.7;">Uso IA para investigar keywords, analizar SERPs, estudiar competidores y detectar patrones de intención de búsqueda antes de escribir una sola línea.</p>
+    </div>
+    <div style="background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:24px;">
+      <p style="font-size:20px;margin-bottom:10px;">✍️</p>
+      <p style="font-weight:600;font-size:15px;margin-bottom:6px;">Redacción y edición</p>
+      <p style="font-size:13px;color:var(--ink-light);font-weight:300;line-height:1.7;">Genero outlines, borradores y estructuras con IA. Después edito, reescribo y le doy mi voz. El resultado final siempre pasa por mis manos y mi criterio editorial.</p>
+    </div>
+    <div style="background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:24px;">
+      <p style="font-size:20px;margin-bottom:10px;">📊</p>
+      <p style="font-weight:600;font-size:15px;margin-bottom:6px;">Análisis de tendencias</p>
+      <p style="font-size:13px;color:var(--ink-light);font-weight:300;line-height:1.7;">Monitoreo cómo los LLMs responden a queries de mis clientes. Entender cómo Google AI selecciona fuentes me ayuda a optimizar para el nuevo paradigma de búsqueda.</p>
+    </div>
+    <div style="background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:24px;">
+      <p style="font-size:20px;margin-bottom:10px;">🧪</p>
+      <p style="font-weight:600;font-size:15px;margin-bottom:6px;">Experimentación activa</p>
+      <p style="font-size:13px;color:var(--ink-light);font-weight:300;line-height:1.7;">Estoy aprendiendo a crear webs sencillas pero optimizadas con Claude. De hecho, este portafolio fue construido así: yo aporté los datos, la estrategia y el criterio; la IA me ayudó a ejecutar.</p>
+    </div>
+  </div>
+
+  <div style="margin-top:8px;">
+    <p class="case-label">Herramientas que uso</p>
+    <div class="pill-row" style="margin-top:12px;">
+      <span class="pill" style="border-color:var(--coral);color:var(--coral);">Claude</span>
+      <span class="pill" style="border-color:var(--coral);color:var(--coral);">ChatGPT</span>
+      <span class="pill" style="border-color:var(--coral);color:var(--coral);">NotebookLM</span>
+      <span class="pill">SEMrush (vía ChatGPT)</span>
+      <span class="pill">Google Search Console</span>
+      <span class="pill">Jira</span>
+      <span class="pill">Trello</span>
+      <span class="pill">Notion</span>
+    </div>
+  </div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══ ABOUT ═══ -->
+<section class="section" id="sobre-mi" style="background:var(--white);">
+<div class="wrap">
+  <p class="section-eyebrow">Sobre mí</p>
+  <h2 class="section-title">Hola, soy Mónica</h2>
+  <img src="monica-foto.png" alt="Mónica Gómez Vesga" class="about-photo">
+  <div class="about-grid" style="margin-top:32px;">
+    <div>
+      <p>Soy Content Manager y redactora SEO en Barcelona. Coordino todo el proceso de contenidos de principio a fin: planeo la estrategia, busco y gestiono redactores, reviso que cada pieza cumpla con los parámetros de calidad de la marca y escribo también cuando hace falta — sobre todo cuando el contenido necesita posicionar.</p>
+      <p>Me enfoco en que los contenidos cumplan con las normas de GEO y AEO para que las marcas aparezcan tanto en buscadores tradicionales como en las respuestas de los principales LLMs. Es un proceso que combina investigación de keywords, análisis de la competencia y mucha atención al tono de marca.</p>
+      <p>Cuando las marcas operan en España y en Latinoamérica, también me encargo de localizar los contenidos — porque son dos audiencias con códigos, léxicos y referencias culturales diferentes, y el mismo texto no funciona para ambas.</p>
+      <div class="about-note">🎵 Me encanta la música y tengo un programa de radio bimensual en una radio online que transmite desde Barcelona.</div>
+      <div class="skill-row">
+        <span class="skill">Content management</span><span class="skill">Content strategy</span>
+        <span class="skill">Coordinación de redactores</span><span class="skill">Control de calidad</span>
+        <span class="skill">SEO on-page</span><span class="skill">Keyword research</span>
+        <span class="skill">Copywriting</span><span class="skill">GEO / AEO</span>
+        <span class="skill">Localización ES-LATAM</span><span class="skill">Microlearning</span>
       </div>
     </div>
-  </div>
-</section>
-
-<section id="tools" style="border-top:1px solid var(--line)">
-  <div class="wrap">
-    <div class="sec-head rev">
-      <div class="sec-kicker">Toolkit</div>
-      <h2 class="sec-h" style="font-size:32px">Tools I work with</h2>
-      <p class="sec-intro" style="margin-bottom:30px">The day-to-day stack behind the results, across SEO, analytics, AI-search research and content ops.</p>
-    </div>
-    <div class="toolset rev">
-      <div class="toolrow"><span class="tlabel">SEO &amp; analytics</span>
-        <span class="tool">Semrush</span><span class="tool">Ahrefs</span><span class="tool">Google Search Console</span><span class="tool">Google Analytics (GA4)</span>
-      </div>
-      <div class="toolrow"><span class="tlabel">AI &amp; search research</span>
-        <span class="tool">ChatGPT</span><span class="tool">Claude</span><span class="tool">Perplexity</span><span class="tool">NotebookLM</span>
-      </div>
-      <div class="toolrow"><span class="tlabel">Content &amp; ops</span>
-        <span class="tool">Notion</span><span class="tool">Zendesk</span><span class="tool">WordPress</span>
-      </div>
+    <div>
+      <p class="about-h4">Experiencia</p>
+      <p>Copywriter en <strong>Blinkist</strong> (resúmenes de libros, empresa tech alemana). Redacción creativa para <strong>Club Coco</strong> (sello musical holandés). Productora del podcast <strong>La Candela Viva</strong>.</p>
+      <p class="about-h4">Idiomas</p>
+      <p>Castellano (nativo) · Inglés (profesional) · Francés (básico)</p>
+      <p class="about-h4">Contacto</p>
+      <p><a href="mailto:mnca.gov@gmail.com" style="text-decoration:none;border-bottom:1px dotted var(--coral);">mnca.gov@gmail.com</a></p>
+      <p><a href="https://www.linkedin.com/in/monicagomezvesga/" target="_blank" style="text-decoration:none;border-bottom:1px dotted var(--coral);">LinkedIn →</a></p>
     </div>
   </div>
-</section>
-
-<section id="clients" style="background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
-  <div class="wrap">
-    <div class="sec-head rev">
-      <div class="sec-kicker">Trusted by</div>
-      <h2 class="sec-h" style="font-size:32px">Selected clients &amp; brands</h2>
-    </div>
-    <div class="clients rev">
-      <span class="clogo">Allianz</span>
-      <span class="clogo">Rosa Clará</span>
-      <span class="clogo">SABA</span>
-      <span class="clogo">Blinkist</span>
-      <span class="clogo">Tous</span>
-      <span class="clogo">Clarel</span>
-      <span class="clogo">Intracon</span>
-      <span class="clogo">CESIF</span>
-      <span class="clogo">ISEP</span>
-      <span class="clogo">Implika</span>
-      <span class="clogo">Ubicex</span>
-      <span class="clogo">Foiegood</span>
-      <span class="clogo">L3tcraft</span>
-      <span class="clogo">Area</span>
-    </div>
-  </div>
-</section>
-
-<section id="about">
-  <div class="wrap">
-    <div class="about-card rev">
-      <div class="sec-kicker">About me</div>
-      <h2>Words are the craft. Systems are the habit.</h2>
-      <p>I'm a journalist and editor by training, with an M.A. in Editing, a B.A. in Journalism, and published literary work behind me. That foundation is why I can take something complex and make it clear without making it wrong.</p>
-      <p>I've spent around eight years working with words, the last several deep in SEO (since 2019). I've moved between SEO copywriting, editorial and content operations, for consumer brands and, increasingly, for tech. Native Spanish, C1 English, and yes, I can tell Spain and LATAM Spanish apart. Based in Barcelona, fully remote, happy working async across time zones.</p>
-      <p>What ties it together: I care about the sentence and the system in equal measure.</p>
-    </div>
-  </div>
-</section>
-
-<section id="contact" class="contact">
-  <div class="wrap">
-    <h2>Let's make content<br>that <span class="serif-it">gets cited.</span></h2>
-    <p>Open to SEO, AI search (AEO/GEO) and content &amp; editing roles.</p>
-    <div class="contact-links">
-      <a class="btn btn-primary" href="mailto:mnca.gov@gmail.com">Email me</a>
-      <a class="btn btn-ghost" href="https://www.linkedin.com/in/monicagomezvesga/" target="_blank">LinkedIn</a>
-      <a class="btn btn-ghost" href="seo-portfolio/en.html">SEO portfolio →</a>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">Words and edits by Mónica Gómez Vesga · Barcelona</div>
-</footer>
-
-<script>
-  // Reveal on scroll
-  const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
-  document.querySelectorAll('.rev').forEach((el,i)=>{el.style.transitionDelay=(Math.min(i,6)*60)+'ms';io.observe(el)});
-
-  // Count-up
-  function countUp(el){
-    const target=+el.dataset.count, suf=el.dataset.suffix||'';
-    let n=0; const step=Math.max(1,Math.ceil(target/28));
-    const t=setInterval(()=>{n+=step;if(n>=target){n=target;clearInterval(t)}el.textContent=n+suf},32);
-  }
-  const cio=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){countUp(e.target);cio.unobserve(e.target)}})},{threshold:.6});
-  document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
-
-  // Traffic bars
-  const bio=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.style.width=e.target.dataset.w+'%';bio.unobserve(e.target)}})},{threshold:.5});
-  document.querySelectorAll('.dbar i').forEach(el=>bio.observe(el));
-
-  // Filter
-  const fbtns=document.querySelectorAll('.fbtn'), cases=document.querySelectorAll('.case');
-  fbtns.forEach(b=>b.addEventListener('click',()=>{
-    fbtns.forEach(x=>x.classList.remove('active')); b.classList.add('active');
-    const f=b.dataset.filter;
-    cases.forEach(c=>{
-      const show=(f==='all'||c.dataset.cat===f);
-      c.classList.toggle('hide',!show);
-    });
-  }));
-</script>
-</body>
-</html>
+</div
